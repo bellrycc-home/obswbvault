@@ -1,0 +1,1175 @@
+{
+  "id": "infra-s2",
+  "titulo": "Infraestructura",
+  "subtitulo": "Curso S2 · Web",
+  "version": 1,
+  "generado": "2026-11-18 15:44",
+  "generado_iso": "2026-11-18T15:44:06-03:00",
+  "fuente": {
+    "vault": "Notas/Infraestructura",
+    "notas": 22,
+    "estado": "pendiente_revision"
+  },
+  "modulos": [
+    {
+      "id": "inicio",
+      "titulo": "Inicio",
+      "descripcion": "Punto de entrada, ruta y plan del curso"
+    },
+    {
+      "id": "m1",
+      "titulo": "1 · Seguridad eléctrica y manipulación",
+      "descripcion": "Prerrequisito absoluto: proteger el equipo y al técnico"
+    },
+    {
+      "id": "m2",
+      "titulo": "2 · Hardware fundamental",
+      "descripcion": "Alimentación, placa base, CPU y memoria"
+    },
+    {
+      "id": "m3",
+      "titulo": "3 · Almacenamiento",
+      "descripcion": "Discos, particiones, RAID y sistemas de archivos"
+    },
+    {
+      "id": "m4",
+      "titulo": "4 · Fundamentos de red",
+      "descripcion": "Capas, protocolos y direccionamiento"
+    },
+    {
+      "id": "m5",
+      "titulo": "5 · Conmutación, enrutamiento y servicios",
+      "descripcion": "VLAN, rutas, ACL, servicios y práctica en simuladores"
+    },
+    {
+      "id": "m6",
+      "titulo": "6 · Sistemas operativos",
+      "descripcion": "Windows y Linux desde la línea de comandos"
+    },
+    {
+      "id": "m7",
+      "titulo": "7 · Virtualización, contenedores y nube",
+      "descripcion": "Hipervisores, Docker, Kubernetes, cloud y despliegue"
+    },
+    {
+      "id": "m8",
+      "titulo": "8 · Seguridad y operación",
+      "descripcion": "Endurecimiento, mantenimiento y diagnóstico"
+    }
+  ],
+  "rutas": [
+    {
+      "id": "integral",
+      "titulo": "Dominio integral",
+      "descripcion": "Las ocho etapas completas, en orden",
+      "lecciones": [
+        "seguridad-electrica-y-esd",
+        "fuentes-de-alimentacion",
+        "placas-base-y-chipsets",
+        "procesadores-cpu",
+        "memoria-ram-y-ecc",
+        "conceptos-de-almacenamiento",
+        "administracion-de-discos",
+        "modelos-de-red-osi-y-tcpip",
+        "redes-y-direccionamiento-ip",
+        "conmutacion-vlan-y-stp",
+        "enrutamiento-estatico-cisco",
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "servicios-de-red-y-acl",
+        "simulacion-y-emulacion-de-redes",
+        "administracion-windows-y-linux",
+        "virtualizacion-e-hipervisores",
+        "contenedores-docker",
+        "orquestacion-kubernetes",
+        "infraestructura-cloud-y-devops",
+        "despliegue-nginx-docker",
+        "seguridad-y-hardening-ti",
+        "mantenimiento-y-troubleshooting"
+      ]
+    },
+    {
+      "id": "repaso",
+      "titulo": "Repaso rápido",
+      "descripcion": "Recorrido completo en orden, para refrescar",
+      "lecciones": [
+        "seguridad-electrica-y-esd",
+        "fuentes-de-alimentacion",
+        "placas-base-y-chipsets",
+        "procesadores-cpu",
+        "memoria-ram-y-ecc",
+        "conceptos-de-almacenamiento",
+        "administracion-de-discos",
+        "modelos-de-red-osi-y-tcpip",
+        "redes-y-direccionamiento-ip",
+        "conmutacion-vlan-y-stp",
+        "enrutamiento-estatico-cisco",
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "servicios-de-red-y-acl",
+        "simulacion-y-emulacion-de-redes",
+        "administracion-windows-y-linux",
+        "virtualizacion-e-hipervisores",
+        "contenedores-docker",
+        "orquestacion-kubernetes",
+        "infraestructura-cloud-y-devops",
+        "despliegue-nginx-docker",
+        "seguridad-y-hardening-ti",
+        "mantenimiento-y-troubleshooting"
+      ]
+    },
+    {
+      "id": "redes",
+      "titulo": "Enfoque en redes",
+      "descripcion": "Del modelo de capas a la simulación",
+      "lecciones": [
+        "modelos-de-red-osi-y-tcpip",
+        "redes-y-direccionamiento-ip",
+        "conmutacion-vlan-y-stp",
+        "enrutamiento-estatico-cisco",
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "servicios-de-red-y-acl",
+        "simulacion-y-emulacion-de-redes"
+      ]
+    },
+    {
+      "id": "servidores",
+      "titulo": "Enfoque en servidores y nube",
+      "descripcion": "Hardware, sistemas, virtualización y operación",
+      "lecciones": [
+        "fuentes-de-alimentacion",
+        "placas-base-y-chipsets",
+        "procesadores-cpu",
+        "memoria-ram-y-ecc",
+        "conceptos-de-almacenamiento",
+        "administracion-windows-y-linux",
+        "virtualizacion-e-hipervisores",
+        "contenedores-docker",
+        "orquestacion-kubernetes",
+        "infraestructura-cloud-y-devops",
+        "seguridad-y-hardening-ti",
+        "mantenimiento-y-troubleshooting"
+      ]
+    }
+  ],
+  "labs": {
+    "estado": "pendiente",
+    "disponible": false,
+    "nota": "Pestaña reservada para los simuladores interactivos (Cisco Packet Tracer y otros)."
+  },
+  "lecciones": [
+    {
+      "slug": "guia",
+      "titulo": "Guía del curso",
+      "archivo": "00_Guia_del_curso.md",
+      "modulo": "inicio",
+      "orden": 1,
+      "fecha": "2026-11-18",
+      "hash": "260dbebe6425",
+      "bytes": 2584,
+      "palabras": 444,
+      "estado": "",
+      "nivel": "",
+      "tipo": "",
+      "tags": [],
+      "aliases": [],
+      "resumen": "Este sitio es la versión web de la materia Infraestructura . Reúne las 22 notas del vault en un recorrido de ocho etapas: desde la seguridad eléctrica hasta el mantenimiento y el…",
+      "enlaces": [
+        "fuentes-de-alimentacion",
+        "mantenimiento-y-troubleshooting",
+        "modelos-de-red-osi-y-tcpip",
+        "simulacion-y-emulacion-de-redes"
+      ],
+      "md": "# Guía del curso\n\nEste sitio es la versión web de la materia **Infraestructura**. Reúne las 22 notas del vault en un recorrido de ocho etapas: desde la seguridad eléctrica hasta el mantenimiento y el diagnóstico. El contenido se extrae del vault tal cual y se publica aquí sin editar las notas originales.\n\n> 🧠 **Idea clave:** la ruta de las ocho etapas marca el orden de estudio; la malla de enlaces muestra cómo se conectan los temas entre sí.\n\n## Cómo usar el curso\n\n- **Barra lateral:** filtra por título, contenido o `#etiqueta`; marca cada lección como completada. El progreso se guarda en el navegador.\n- **Notas:** cada lección muestra su contenido y, al final, las lecciones que la enlazan.\n- **Grafo:** vista **Ruta** con las ocho etapas en columnas. Las líneas son enlaces reales entre notas. El selector de ruta resalta un subconjunto.\n- **Laboratorios:** la pestaña existe pero está deshabilitada. Se reserva para integrar más adelante los simuladores interactivos (Cisco Packet Tracer y otros).\n\n## Las ocho etapas\n\n| Etapa | Contenido | Notas |\n| --- | --- | --- |\n| 1 | Seguridad eléctrica y manipulación | 1 |\n| 2 | Hardware fundamental | 4 |\n| 3 | Almacenamiento | 2 |\n| 4 | Fundamentos de red | 2 |\n| 5 | Conmutación, enrutamiento y servicios | 5 |\n| 6 | Sistemas operativos | 1 |\n| 7 | Virtualización, contenedores y nube | 5 |\n| 8 | Seguridad y operación | 2 |\n\n## Rutas por objetivo\n\n- **Repaso rápido:** recorrido completo en orden, para refrescar antes de un examen.\n- **Dominio integral:** las ocho etapas con sus puntos de control, sin saltos.\n- **Enfoque en redes:** de [[Modelos_de_Red_OSI_y_TCPIP]] a [[Simulacion_y_Emulacion_Redes]].\n- **Enfoque en servidores y nube:** de [[Fuentes_de_Alimentacion]] a [[Mantenimiento_y_Troubleshooting]].\n\n## Plan de semestre\n\nLa guía curricular agrupa el recorrido en cinco bloques. Las etapas del curso encajan así:\n\n| Bloque | Etapas |\n| --- | --- |\n| 1. Arquitectura de hardware, almacenamiento y sistemas operativos | 1, 2, 3 y 6 |\n| 2. Fundamentos de redes y conectividad | 4 |\n| 3. Conmutación, enrutamiento y emulación | 5 |\n| 4. Virtualización, contenedores e infraestructura en la nube | 7 |\n| 5. Ciberseguridad, mantenimiento y operaciones TI | 8 |\n\n## Origen y estado\n\n- Las notas provienen de `Notas/Infraestructura/` y conservan su estado **pendiente de revisión**.\n- Este sitio no modifica el vault: solo lee y copia el contenido al proyecto.\n- La fecha de cada lección corresponde a la última modificación del archivo de origen; la fecha de generación aparece al pie.\n"
+    },
+    {
+      "slug": "seguridad-electrica-y-esd",
+      "titulo": "Seguridad eléctrica y ESD",
+      "archivo": "Seguridad_Electrica_y_ESD.md",
+      "modulo": "m1",
+      "orden": 2,
+      "fecha": "2026-11-16",
+      "hash": "80ede60c32f5",
+      "bytes": 2440,
+      "palabras": 352,
+      "estado": "pendiente_revision",
+      "nivel": "2",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura"
+      ],
+      "aliases": [
+        "ESD",
+        "Descarga electrostática"
+      ],
+      "resumen": "La ESD es una transferencia repentina de electricidad estática entre dos objetos con distintos potenciales eléctricos. El cuerpo humano puede acumular carga sin percibirla.",
+      "enlaces": [
+        "fuentes-de-alimentacion"
+      ],
+      "md": "**Seguridad eléctrica y manejo de ESD** (Descarga Electrostática) es el conjunto de prácticas y precauciones que evitan dañar componentes electrónicos sensibles por transferencia repentina de electricidad estática entre objetos con distintos potenciales eléctricos. Es el primer prerrequisito antes de manipular cualquier hardware: sin estas precauciones, una sola descarga puede destruir silenciosamente circuitos integrados.\n\n## Bases y prerrequisitos\n- Ninguno (nota de entrada al módulo de hardware).\n\n## Ver también / Para profundizar\n- [[Fuentes_de_Alimentacion]] — siguiente paso: una vez seguro el entorno, se manipula la fuente de poder.\n- Conceptos_de_Almacenamiento *(sugerencia — nota pendiente)*\n\n## Descarga Electrostática (ESD)\n\nLa ESD es una transferencia repentina de electricidad estática entre dos objetos con distintos potenciales eléctricos. El cuerpo humano puede acumular carga sin percibirla.\n\n- Se requieren **al menos 3000 V** de acumulación para que una persona *sienta* la descarga.\n- Sin embargo, cargas mucho menores (incluso **menos de 30 V**) pueden dañar componentes electrónicos sensibles sin que el técnico lo note al tacto.\n- Por eso la protección no depende de \"sentir\" la descarga.\n\n## Medidas de protección\n\n- **Pulsera antiestática:** se conecta a tierra (ground) para igualar el potencial del técnico con el del equipo. Es recomendable ponerse una al trabajar dentro de equipos.\n- Trabajar sobre superficies antiestáticas y evitar alfombras o ropa sintética.\n- Manipular los componentes por los bordes, evitando tocar los pines o contactos dorados.\n- Mantener los componentes en bolsas antiestáticas hasta el momento de instalación.\n\n## Punto de atención\n- ⚠️ **Punto de atención:** una descarga de 30 V es suficiente para dañar un componente, aunque el umbral de percepción humana sea 3000 V. Nunca asumas que \"no pasó nada\" porque no sentiste descarga.\n- ⚠️ **No confundir:** ESD (descarga electrostática, daño por electricidad estática) con sobretensión de la red eléctrica (daño por voltaje de línea, protegido por la fuente de poder).\n\n## Idea clave\nLa seguridad eléctrica y el control de ESD son el prerrequisito absoluto de todo trabajo sobre hardware: una descarga imperceptible puede destruir componentes, por lo que la protección (pulsera, superficie antiestática, manipulación por bordes) es obligatoria antes de tocar cualquier pieza.\n"
+    },
+    {
+      "slug": "fuentes-de-alimentacion",
+      "titulo": "Fuentes de alimentación",
+      "archivo": "Fuentes_de_Alimentacion.md",
+      "modulo": "m2",
+      "orden": 3,
+      "fecha": "2026-11-18",
+      "hash": "16b3e0dbed5f",
+      "bytes": 4345,
+      "palabras": 705,
+      "estado": "pendiente_revision",
+      "nivel": "2",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura"
+      ],
+      "aliases": [
+        "PSU",
+        "Fuente de poder",
+        "Power Supply Unit"
+      ],
+      "resumen": "El dimensionamiento de la fuente se apoya en dos relaciones eléctricas básicas:",
+      "enlaces": [
+        "placas-base-y-chipsets",
+        "procesadores-cpu",
+        "seguridad-electrica-y-esd"
+      ],
+      "md": "**Fuentes de alimentación** (PSU, *Power Supply Unit*) son los dispositivos que convierten la corriente alterna (AC) de la red eléctrica en corriente continua (DC) de los voltajes que requieren los componentes internos del equipo. Es el segundo eslabón de la cadena de hardware: sin energía estable y correctamente distribuida, ningún otro componente puede funcionar.\n\n## Bases y prerrequisitos\n- [[Seguridad_Electrica_y_ESD]] — el entorno debe estar protegido contra ESD antes de manipular la fuente.\n\n## Ver también / Para profundizar\n- [[Placas_Base_y_Chipsets]] — la fuente se conecta a la placa base y a la CPU.\n- [[Procesadores_CPU]] — la CPU consume la mayor parte de la energía de 12 V.\n\n## Tipos de fuente de alimentación\n\n- **AT:** estándar antiguo, ya en desuso.\n- **ATX de 12 V:** la más extendida en el mercado actual. Incluye un conector auxiliar dedicado (4/8 pines) para suministrar energía directamente a la CPU. Hay varias versiones disponibles (ATX 2.x). Es la fuente más común en equipos de escritorio.\n- **EPS12 V:** especificación orientada a servidores y estaciones de trabajo de alta gama. Aporta conectores adicionales para placas multiprocesador. No debe confundirse con la redundancia de fuentes (ver más abajo).\n\n## Salidas de voltaje típicas (ATX)\n\n| Salida | Uso principal |\n|---|---|\n| +3.3 V / +5 V | Circuitos digitales lógicos, memoria, periféricos de baja potencia |\n| +12 V | Motores de discos duros, ventiladores, VRM de CPU/GPU, tarjetas de vídeo |\n| -12 V / +5 VSB | Circuitos auxiliares y encendido por red (Wake-on-LAN) |\n\n> 🧠 **Idea clave:** las líneas de 12 V alimentan los componentes con motores electromecánicos y las VRM de CPU/GPU; los circuitos digitales lógicos funcionan típicamente con 3.3 V o 5 V.\n\n## Ley de Ohm y potencia\n\nEl dimensionamiento de la fuente se apoya en dos relaciones eléctricas básicas:\n\n```text\nV = I × R        P = V × I\n```\n\n| Magnitud | Símbolo | Unidad |\n|---|---|---|\n| Diferencia de potencial | V | voltio (V) |\n| Intensidad de corriente | I | amperio (A) |\n| Resistencia | R | ohmio (Ω) |\n| Potencia | P | vatio (W) |\n\n*Ejemplo ilustrativo:* un componente que consume 2 A por la línea de +12 V disipa `P = 12 × 2 = 24 W`. La potencia total de la fuente debe cubrir la suma de CPU, GPU, discos y ventiladores, con margen.\n\n## Fuentes redundantes en servidores\n\nUn servidor de producción puede montar **dos o más fuentes** conectadas a líneas de corriente independientes. Si una falla, las demás sostienen la carga sin apagar el equipo. Es una función de la arquitectura del servidor, no una característica del estándar EPS12V.\n\n> [!warning] Posible error en la fuente\n> `Informe2.txt` presenta «fuentes redundantes (EPS12V)» como una sola cosa. `Informe1.txt` describe EPS12V como la especificación que aporta conectores adicionales para placas multiprocesador. Se separan los conceptos: EPS12V es una especificación de alimentación; la redundancia es una arquitectura con varias fuentes en líneas independientes.\n\n## Conectores principales\n\n- **Conector principal de 20/24 pines:** alimenta la placa base.\n- **Conector auxiliar de 4/8 pines (CPU):** alimentación dedicada al procesador (presente en ATX 12 V y EPS12 V).\n- **Conectores SATA/Molex:** para discos y unidades ópticas.\n\n## Punto de atención\n- ⚠️ **Punto de atención:** verificar la potencia (vatios) total de la fuente frente al consumo de los componentes (CPU + GPU + discos) antes de armar un equipo.\n- ⚠️ **No confundir:** ATX de 12 V (escritorio estándar) con EPS12 V (servidores / alta gama). Ambas tienen conector CPU auxiliar, pero EPS12 V ofrece conectores adicionales para placas multiprocesador.\n- ⚠️ **No confundir:** EPS12 V (especificación de conectores) con redundancia de fuentes (dos fuentes en líneas independientes). Un servidor puede tener fuentes redundantes que no sean EPS12V y viceversa.\n\n## Idea clave\nLa fuente convierte AC en DC y distribuye +3.3 V, +5 V y +12 V mediante conectores dedicados; ATX 12 V es el estándar de escritorio y EPS12 V añade conectores para placas multiprocesador. La ley de Ohm (`V = I·R`) y la potencia (`P = V·I`) permiten dimensionarla, y la redundancia de fuentes —dos unidades en líneas independientes— es una decisión de arquitectura del servidor, no del estándar.\n"
+    },
+    {
+      "slug": "placas-base-y-chipsets",
+      "titulo": "Placas base y chipsets",
+      "archivo": "Placas_Base_y_Chipsets.md",
+      "modulo": "m2",
+      "orden": 4,
+      "fecha": "2026-11-18",
+      "hash": "0b50aac32603",
+      "bytes": 4680,
+      "palabras": 732,
+      "estado": "pendiente_revision",
+      "nivel": "2",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura"
+      ],
+      "aliases": [
+        "Motherboard",
+        "Tarjeta madre",
+        "Chipset"
+      ],
+      "resumen": "Los factores de forma definen el tamaño físico y la disposición de conectores de la placa base. Condicionan la caja (gabinete) compatible, el flujo de aire y los requisitos de la fuente de…",
+      "enlaces": [
+        "administracion-de-discos",
+        "fuentes-de-alimentacion",
+        "memoria-ram-y-ecc",
+        "procesadores-cpu"
+      ],
+      "md": "**Placas base** (motherboard) son el circuito impreso principal que interconecta todos los componentes de un equipo (CPU, RAM, almacenamiento, periféricos). El **chipset** es el conjunto de chips que gestiona la comunicación entre la CPU y el resto de los dispositivos. Comprender la placa base es esencial porque determina qué componentes son compatibles y cómo se comunican entre sí.\n\n## Bases y prerrequisitos\n- [[Fuentes_de_Alimentacion]] — la placa base recibe energía de la fuente.\n\n## Ver también / Para profundizar\n- [[Procesadores_CPU]] — la CPU se instala en el socket de la placa base.\n- [[Memoria_RAM_y_ECC]] — la RAM se conecta a la placa base.\n- [[Administracion_de_Discos]] — MBR/GPT y el límite de arranque de 2 TB.\n- [[Fuentes_de_Alimentacion]] — requisitos de alimentación según el factor de forma.\n\n## Factores de forma (form factors)\n\nLos factores de forma definen el tamaño físico y la disposición de conectores de la placa base. Condicionan la caja (gabinete) compatible, el flujo de aire y los requisitos de la fuente de alimentación.\n\n| Factor | Medidas | Orientación |\n|---|---|---|\n| **ATX** | 30,5 × 24,4 cm (12 × 9,6 pulgadas) | Máxima capacidad de expansión |\n| **Micro-ATX** | 24,4 × 24,4 cm (9,6 × 9,6 pulgadas) | Equilibrio entre coste y expansión |\n| **Mini-ITX** | 17 × 17 cm (6,7 × 6,7 pulgadas) | Sistemas integrados o de bajo consumo |\n\n## Chipset: puente norte y puente sur\n\nDentro del conjunto de chips (chipset) de la placa base:\n\n- **Puente norte (Northbridge):** controla el acceso de alta velocidad a la RAM y a la tarjeta de vídeo. Conecta el procesador con los componentes que requieren mayor velocidad de transferencia de datos (memoria RAM y ranuras PCIe de vídeo).\n- **Puente sur (Southbridge):** permite la comunicación de la CPU con dispositivos de menor velocidad: discos duros (SATA), puertos USB, audio, red.\n\n> 🧠 **Idea clave:** northbridge = alta velocidad (RAM, GPU); southbridge = baja velocidad (discos, USB, audio). En arquitecturas modernas ambos se integran en un único chip (PCH).\n\n## Sockets de CPU: LGA vs PGA\n\n- **LGA (Land Grid Array):** los pines de contacto están ubicados en la propia placa base (socket); la superficie inferior del procesador tiene contactos dorados planos (*lands*). Usado por Intel.\n- **PGA (Pin Grid Array):** los pines sobresalen directamente del procesador; el socket tiene orificios. Usado por AMD (históricamente).\n\n> ⚠️ **No confundir:** LGA (pines en el socket) vs PGA (pines en el procesador). Forzar un procesador en el socket incorrecto destruye los pines.\n\n## Ranuras de expansión\n\nLas **ranuras de expansión** (PCI / PCIe) son conectores físicos integrados en la tarjeta madre para añadir tarjetas adaptadoras adicionales (GPU, red, captura, etc.).\n\n## Firmware: BIOS, UEFI y POST\n\nEl **firmware** es el software grabado en una memoria no volátil reprogramable (**EEPROM/Flash**) que se ejecuta al encender el equipo, antes de que el sistema operativo tome el control.\n\n- **BIOS** (*Basic Input/Output System*): firmware tradicional. Inicializa el hardware y localiza el dispositivo de arranque.\n- **POST** (*Power-On Self-Test*): autoevaluación de encendido. Comprueba la presencia e integridad del procesador, la memoria RAM, la tarjeta de vídeo y las unidades de almacenamiento. Si falla, el arranque se detiene con un código o aviso.\n- **UEFI** (*Unified Extensible Firmware Interface*): firmware moderno que sustituye a la BIOS. Aporta interfaz gráfica, tiempos de inicio optimizados, soporte para discos de más de 2 TB y **Secure Boot**.\n- **Secure Boot**: valida la firma digital del cargador del sistema operativo antes de ejecutarlo, lo que impide arrancar código no firmado.\n\nEl arranque con BIOS tradicional usa MBR y queda limitado a 2 TB por volumen; UEFI usa GPT y supera ese límite. El desarrollo del particionado está en [[Administracion_de_Discos]].\n\n## Punto de atención\n- ⚠️ **Punto de atención:** verificar compatibilidad entre socket de la placa base y el procesador (modelo y generación) antes de comprar.\n- ⚠️ **No confundir:** el BIOS/UEFI y la batería CMOS guardan la configuración de arranque; el chipset gestiona la comunicación entre componentes. Son funciones distintas.\n\n## Idea clave\nLa placa base es el backbone del equipo: su factor de forma (ATX, micro-ATX, mini-ITX), socket (LGA/PGA) y chipset (northbridge para alta velocidad, southbridge para baja velocidad) determinan qué CPU, RAM y periféricos son compatibles. Su firmware (BIOS/UEFI sobre EEPROM/Flash) ejecuta el POST y decide el arranque: UEFI con Secure Boot y GPT supera el límite de 2 TB de BIOS con MBR.\n"
+    },
+    {
+      "slug": "procesadores-cpu",
+      "titulo": "Procesadores (CPU)",
+      "archivo": "Procesadores_CPU.md",
+      "modulo": "m2",
+      "orden": 5,
+      "fecha": "2026-11-18",
+      "hash": "135c00aa8fdd",
+      "bytes": 4838,
+      "palabras": 759,
+      "estado": "pendiente_revision",
+      "nivel": "3",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura"
+      ],
+      "aliases": [
+        "CPU",
+        "Procesador",
+        "Unidad Central de Procesamiento"
+      ],
+      "resumen": "1. Orientar la CPU hacia su socket: identificar la muesca de orientación o la marca del Pin 1 en el procesador y alinearla con la clave del socket. 2. Colocar la CPU en el socket…",
+      "enlaces": [
+        "fuentes-de-alimentacion",
+        "memoria-ram-y-ecc",
+        "placas-base-y-chipsets"
+      ],
+      "md": "**Procesador (CPU, *Central Processing Unit*)** es el \"cerebro\" del equipo: ejecuta las instrucciones de cómputo. Es el componente que más energía consume y más calor genera, por lo que requiere un sistema de refrigeración adecuado y una instalación cuidadosa.\n\n## Bases y prerrequisitos\n- [[Placas_Base_y_Chipsets]] — la CPU se instala en el socket de la placa base; la compatibilidad depende del socket (LGA/PGA).\n\n## Ver también / Para profundizar\n- [[Memoria_RAM_y_ECC]] — la CPU accede a la RAM a través del northbridge.\n- [[Fuentes_de_Alimentacion]] — la CPU recibe energía dedicada por el conector auxiliar de 4/8 pines.\n\n## Instalación de la CPU (secuencia)\n\n1. **Orientar** la CPU hacia su socket: identificar la muesca de orientación o la marca del Pin 1 en el procesador y alinearla con la clave del socket.\n2. **Colocar** la CPU en el socket suavemente, sin forzar los pines o contactos.\n3. **Asegurar** la CPU: bajar la cubierta de carga del socket y enganchar la palanca de retención.\n4. **Aplicar pasta térmica** sobre el difusor térmico integrado (IHS) de la CPU (pequeña cantidad) para garantizar la conducción del calor.\n5. **Instalar el disipador térmico** (heatsink/fan) sobre la CPU.\n6. **Asegurar el disipador** con los pestillos o tornillos de retención al soporte de la placa base.\n\n> ⚠️ **Punto de atención:** nunca forzar la CPU en el socket; si no entra con presión mínima, revisar la orientación.\n\n## Sistemas de refrigeración\n\n- **Disipador de aire (heatsink + fan):** solución estándar; la pasta térmica mejora la transferencia térmica entre CPU y disipador.\n- **Refrigeración líquida:** para equipos de alto rendimiento.\n- **Throttling:** la CPU moderna ajusta dinámicamente su frecuencia de reloj para reducir consumo y disipación de calor (especialmente en portátiles).\n\n## Compatibilidad y tipos de socket\n\n- **LGA (Intel):** pines en el socket, contactos planos en la CPU.\n- **PGA (AMD):** pines en la CPU, orificios en el socket.\n\n> ⚠️ **No confundir:** LGA (pines en socket) vs PGA (pines en procesador). Ver [[Placas_Base_y_Chipsets]].\n\n## Arquitecturas de conjunto de instrucciones\n\n| Arquitectura | Rasgo | Ámbito habitual |\n|---|---|---|\n| **CISC** (*Complex Instruction Set Computer*) | Instrucciones complejas que reducen el número de líneas de código por programa | x86/x64 de escritorio y servidor |\n| **RISC** (*Reduced Instruction Set Computer*) | Conjunto reducido de instrucciones muy optimizadas para ejecutarse en pocos ciclos | Plataformas móviles y de bajo consumo |\n\nNo son mejores ni peores en abstracto: CISC prioriza densidad de código y compatibilidad; RISC, eficiencia por instrucción y consumo.\n\n## Jerarquía de caché\n\nLa CPU no accede siempre a la RAM: guarda datos e instrucciones de uso frecuente en una memoria ultrarrápida integrada, organizada en niveles.\n\n| Nivel | Ubicación | Rasgo |\n|---|---|---|\n| **L1** | Dentro del núcleo | La más rápida y pequeña |\n| **L2** | En el encapsulado del procesador | Secundaria, mayor que L1 |\n| **L3** | Compartida entre núcleos | Gran capacidad; típica en procesadores multinúcleo y servidores |\n\n## Tecnologías de rendimiento\n\n| Tecnología | Fabricante | Mecanismo |\n|---|---|---|\n| **Hyper-Threading** | Intel | Un núcleo físico ejecuta dos hilos simultáneos y el sistema operativo lo ve como dos procesadores lógicos |\n| **HyperTransport** | AMD | Enlace serie punto a punto de alta velocidad y baja latencia entre CPU, memoria y chipset |\n| **Overclocking** | General | Incrementa la frecuencia de reloj por encima de la nominal para elevar el rendimiento |\n| **Throttling** | General | Reduce la frecuencia para proteger la CPU del sobrecalentamiento o ahorrar energía |\n\n> 🧠 **Idea clave:** Hyper-Threading duplica los hilos lógicos de un núcleo físico, no los núcleos; el rendimiento mejora porque se aprovechan las pausas del núcleo, pero no equivale a tener el doble de CPU.\n\n## Punto de atención\n- ⚠️ **Punto de atención:** verificar que la CPU sea compatible con el socket y el chipset de la placa base (modelo y generación).\n- ⚠️ **Punto de atención:** en portátiles, la CPU puede estar soldada (BGA) y no ser reemplazable.\n- ⚠️ **No confundir:** overclocking (sube la frecuencia para rendir más) vs throttling (la baja para protegerse). Son respuestas opuestas.\n- ⚠️ **No confundir:** Hyper-Threading crea hilos lógicos, no núcleos físicos.\n\n## Idea clave\nLa CPU es el cerebro del equipo y se instala en el socket (LGA/PGA) siguiendo una secuencia precisa; su arquitectura puede ser CISC (x86/x64) o RISC, se apoya en caché L1/L2/L3 y en tecnologías como Hyper-Threading e HyperTransport, y su refrigeración es crítica para evitar throttling. El overclocking sube la frecuencia a cambio de más calor y consumo.\n"
+    },
+    {
+      "slug": "memoria-ram-y-ecc",
+      "titulo": "Memoria RAM y ECC",
+      "archivo": "Memoria_RAM_y_ECC.md",
+      "modulo": "m2",
+      "orden": 6,
+      "fecha": "2026-11-18",
+      "hash": "6be01ee44279",
+      "bytes": 3032,
+      "palabras": 482,
+      "estado": "pendiente_revision",
+      "nivel": "2",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura"
+      ],
+      "aliases": [
+        "RAM",
+        "Memoria principal",
+        "ECC"
+      ],
+      "resumen": "El formato debe coincidir con la ranura de la placa: un SODIMM no entra en una ranura DIMM ni al contrario.",
+      "enlaces": [
+        "placas-base-y-chipsets",
+        "procesadores-cpu"
+      ],
+      "md": "**Memoria RAM** (*Random Access Memory*) es la memoria principal de acceso aleatorio que actúa como almacenamiento temporal para los datos y programas en ejecución activa. La **memoria caché** es una memoria ultrarrápida integrada en o cerca de la CPU que reduce el tiempo de acceso a datos frecuentes. La **ECC** (*Error-Correcting Code*) es la tecnología que detecta y corrige errores en la memoria.\n\n## Bases y prerrequisitos\n- [[Procesadores_CPU]] — la CPU accede a la RAM a través del northbridge (ver [[Placas_Base_y_Chipsets]]).\n\n## Ver también / Para profundizar\n- [[Placas_Base_y_Chipsets]] — la RAM se conecta a la placa base; el northbridge controla su acceso.\n\n## Tipos de memoria RAM\n\n- **DDR / DDR2 / DDR3 / DDR4 / DDR5:** generaciones sucesivas de memoria síncrona de doble tasa de datos (*Double Data Rate*). Cada generación mejora velocidad y eficiencia energética; **no son intercambiables** entre slots de diferente generación.\n- La RAM es volátil: pierde su contenido al apagar el equipo.\n\n## Factores de forma: DIMM y SODIMM\n\n| Formato | Equipo | Rasgo |\n|---|---|---|\n| **DIMM** (*Dual In-line Memory Module*) | Escritorio y servidor | Módulo de memoria estándar |\n| **SODIMM** (*Small Outline DIMM*) | Portátiles y equipos compactos | Versión de menor tamaño |\n\nEl formato debe coincidir con la ranura de la placa: un SODIMM no entra en una ranura DIMM ni al contrario.\n\n## Memoria caché\n\n- Memoria ultrarrápida ubicada en o junto a la CPU (niveles L1, L2, L3).\n- Almacena datos e instrucciones usados con frecuencia para reducir la latencia de acceso a la RAM principal.\n\n## Detección y corrección de errores: ECC\n\nLa memoria **ECC** (*Error-Correcting Code*) se utiliza en servidores y sistemas críticos donde la integridad de los datos es vital.\n\n- **Capacidad:** detecta errores de memoria de múltiples bits y corrige automáticamente los errores de un solo bit en tiempo real, sin provocar caídas del sistema (pantallas azules).\n- **Diferencia con paridad simple:** un bit de paridad solo *detecta* errores de un bit, no los corrige.\n- **Requisito:** la placa base y la CPU deben soportar ECC (típico en servidores/workstations, no en equipos de escritorio estándar).\n\n> ⚠️ **No confundir:** ECC (detecta multi-bit y corrige single-bit) vs paridad (solo detecta single-bit). ECC no corrige \"cualquier cantidad\" de bits erróneos.\n\n## Punto de atención\n- ⚠️ **Punto de atención:** verificar compatibilidad entre generación de RAM (DDR4 vs DDR5) y slots de la placa base antes de comprar.\n- ⚠️ **Punto de atención:** la memoria ECC requiere soporte de CPU y placa base; instalarla en un equipo no compatible no activa la corrección.\n\n## Idea clave\nLa RAM es la memoria temporal de trabajo (generaciones DDR no intercambiables, en formato DIMM para escritorio o SODIMM para portátil), acelerada por la caché L1/L2/L3 de la CPU; la ECC añade detección multi-bit y corrección de single-bit, esencial en servidores pero requiere soporte de CPU y placa base.\n"
+    },
+    {
+      "slug": "conceptos-de-almacenamiento",
+      "titulo": "Conceptos de almacenamiento",
+      "archivo": "Conceptos_de_Almacenamiento.md",
+      "modulo": "m3",
+      "orden": 7,
+      "fecha": "2026-11-18",
+      "hash": "f3797640e023",
+      "bytes": 5077,
+      "palabras": 826,
+      "estado": "pendiente_revision",
+      "nivel": "3",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura"
+      ],
+      "aliases": [
+        "Almacenamiento",
+        "Conceptos de almacenamiento",
+        "RAID"
+      ],
+      "resumen": "Estos conceptos son el prerrequisito de Administracion de Discos, donde se aplican: creación de particiones, conversión FAT32→NTFS y gestión de MBR/GPT.",
+      "enlaces": [
+        "administracion-de-discos",
+        "placas-base-y-chipsets"
+      ],
+      "md": "**Conceptos de almacenamiento** son los fundamentos sobre discos, particiones, volúmenes, sistemas de archivos y arreglos redundantes (**RAID**) que preceden a la administración práctica. Esta nota agrupa las definiciones mínimas para comprender [[Administracion_de_Discos]] y el dimensionamiento de almacenamiento en servidores.\n\n## Bases y prerrequisitos\n- Ninguno (nota de entrada conceptual).\n\n## Ver también / Para profundizar\n- [[Administracion_de_Discos]] — aplicación práctica: particiones, conversión FAT32→NTFS, MBR/GPT.\n- [[Placas_Base_y_Chipsets]] — el firmware UEFI y GPT condicionan el arranque de discos grandes.\n\n## Definiciones mínimas\n\n- **Disco (unidad de almacenamiento):** dispositivo físico que guarda datos de forma persistente (HDD magnético, SSD flash).\n- **Partición:** división lógica de un disco físico que el sistema operativo trata como una unidad independiente.\n- **Volumen:** espacio de almacenamiento formateado con un sistema de archivos y asignado una letra de unidad (ej. `C:`, `I:`).\n- **Sistema de archivos:** estructura lógica que organiza y gestiona los archivos en un volumen (FAT32, NTFS, exFAT).\n- **Tabla de partición:** estructura que describe cómo se dividen las particiones en un disco (MBR o GPT).\n- **Sector de arranque (boot sector):** región inicial del volumen que contiene el código para iniciar el sistema operativo.\n\n## Relación con la administración práctica\n\nEstos conceptos son el prerrequisito de [[Administracion_de_Discos]], donde se aplican: creación de particiones, conversión FAT32→NTFS y gestión de MBR/GPT.\n\n## RAID: principios y niveles\n\n**RAID** (*Redundant Array of Independent Disks*) combina varios discos físicos en una unidad lógica para mejorar rendimiento, capacidad o tolerancia a fallos. Se apoya en tres principios:\n\n- **Striping** (franjas): divide los datos en bloques y los escribe simultáneamente en varios discos. Aumenta la velocidad, pero no protege.\n- **Mirroring** (espejo): replica exactamente los datos en otro disco. Tolera el fallo de un disco a cambio de perder la mitad de la capacidad.\n- **Paridad**: calcula sumas de comprobación distribuidas entre las unidades. Permite reconstruir un disco caído sin duplicar el almacenamiento.\n\n| Nivel | Discos mínimos | Tolera el fallo de | Capacidad útil | Rasgo |\n|---|---|---|---|---|\n| **RAID 0** | 2 | Ningún disco | 100 % | Máximo rendimiento, sin redundancia |\n| **RAID 1** | 2 | 1 disco | 50 % | Espejo completo |\n| **RAID 5** | 3 | 1 disco | Un disco menos | Paridad distribuida |\n| **RAID 6** | 4 | 2 discos | Dos discos menos | Doble paridad |\n| **RAID 10** | 4 (dos espejos) | 1 disco por espejo | 50 % | Mirroring + striping |\n\n> 🧠 **Idea clave:** RAID 0 solo suma velocidad; RAID 1 duplica; RAID 5 y 6 añaden paridad para sobrevivir a fallos; RAID 10 combina espejo y franjas para alto rendimiento con redundancia.\n\n## IOPS y dimensionamiento\n\nLas **IOPS** (*Input/Output Operations Per Second*) miden cuántas operaciones de entrada/salida por segundo admite un almacenamiento. El diseño de un servidor elige el arreglo según la carga de trabajo, la latencia y la tolerancia requeridas.\n\n| Servicio / carga | Discos | RAID | Capacidad útil / rendimiento | Justificación |\n|---|---|---|---|---|\n| Sistema operativo y DNS | 2× SSD 72 GB | RAID 1 | 72 GB útiles / 20k IOPS lectura | Arranque rápido y disponibilidad ante fallo |\n| Base de datos transaccional | 3× SSD 512 GB | RAID 5 | ~1 TB útil / 30k IOPS lectura | I/O crítico y tolerancia de 1 disco con paridad |\n| Servidor de reportes | 4× HDD 512 GB | RAID 5 | ~1,5 TB útiles (75 %) / 20k IOPS | Consultas pesadas y almacenamiento masivo económico |\n| Servidor de archivos | 2× HDD 1 TB | RAID 1 | 1 TB útil / 10k IOPS lectura | Documentos con redundancia en espejo |\n\n## NVMe y arranque en servidores\n\n- **NVMe** (*Non-Volatile Memory Express*) es un protocolo para SSD que usa el bus **PCIe** en lugar de la interfaz SATA. Reduce la latencia y aprovecha mejor el paralelismo del almacenamiento flash.\n- **GPT con UEFI** permite volúmenes de gran tamaño y arranque seguro; sustituye a MBR, limitado a 2 TB. Es la combinación habitual en servidores actuales.\n\n> ⚠️ **Punto de atención:** el límite de 9,4 ZB de GPT es teórico; los límites prácticos de Windows y del hardware son muy inferiores.\n>\n> ⚠️ **No confundir:** RAID 5 (tolera 1 disco) vs RAID 6 (tolera 2). RAID 6 exige un disco más y pierde más capacidad, a cambio de sobrevivir a un segundo fallo durante la reconstrucción.\n>\n> ⚠️ **No confundir:** RAID 0 (rendimiento sin protección) vs RAID 1 (protección con la mitad de capacidad).\n\n## Idea clave\nEl almacenamiento se organiza en discos, particiones, volúmenes y sistemas de archivos; RAID añade rendimiento y tolerancia combinando discos con striping, mirroring o paridad (0 sin protección, 1 espejo, 5 un fallo, 6 dos fallos, 10 espejo más franjas). El dimensionamiento se decide por IOPS y carga, y NVMe sobre PCIe con GPT/UEFI es la base de los servidores actuales.\n"
+    },
+    {
+      "slug": "administracion-de-discos",
+      "titulo": "Administración de discos",
+      "archivo": "Administracion_de_Discos.md",
+      "modulo": "m3",
+      "orden": 8,
+      "fecha": "2026-11-18",
+      "hash": "9f77d873f680",
+      "bytes": 5284,
+      "palabras": 824,
+      "estado": "pendiente_revision",
+      "nivel": "3",
+      "tipo": "procedimiento",
+      "tags": [
+        "Infraestructura"
+      ],
+      "aliases": [
+        "Particiones de disco",
+        "Conversión FAT32 a NTFS",
+        "MBR",
+        "GPT"
+      ],
+      "resumen": "Aparece la pestaña Seguridad en las propiedades de la unidad y de sus archivos, permitiendo asignar permisos explícitos de Lectura, Escritura, Modificación y Control Total a usuarios o…",
+      "enlaces": [
+        "conceptos-de-almacenamiento",
+        "placas-base-y-chipsets"
+      ],
+      "md": "**Administración de discos** abarca la creación de particiones, la conversión de sistemas de archivos (FAT32 → NTFS) y la gestión de tablas de partición (MBR / GPT). Es un procedimiento operativo que se ejecuta a nivel de sistema operativo (Windows).\n\n## Bases y prerrequisitos\n- [[Conceptos_de_Almacenamiento]] — conceptos previos de almacenamiento (partición, volumen, sistema de archivos).\n\n## Ver también / Para profundizar\n- [[Conceptos_de_Almacenamiento]] — RAID, IOPS y NVMe como contexto de servidores.\n- [[Placas_Base_y_Chipsets]] — BIOS/UEFI, POST y Secure Boot.\n\n## Tablas de partición: MBR vs GPT\n\n| Característica | MBR | GPT |\n|---|---|---|\n| Tamaño máximo de partición | 2 TB | 9.4 ZB (teórico) |\n| Particiones primarias | 4 (o 3 + extendida) | Hasta 128 |\n| Partición activa | Sí (para arranque) | No aplica igual |\n| Uso típico | Equipos antiguos / BIOS | Equipos modernos / UEFI |\n\n- **MBR (*Master Boot Record*):** sector inicial del disco que contiene la tabla de particiones e identifica el Registro de arranque del volumen (VBR). La **partición activa** se designa para almacenar los archivos del sistema operativo y ejecutar el proceso de arranque.\n- **GPT (*GUID Partition Table*):** esquema moderno con mayor capacidad y más particiones.\n\n> ⚠️ **No confundir:** MBR (límite 2 TB, 4 particiones) vs GPT (9.4 ZB, 128 particiones). No confundir con el sistema de archivos (NTFS/FAT32), que es independiente de la tabla de partición.\n\n## Sistemas de archivos: FAT32 vs NTFS\n\n- **FAT32:** límite de 4 GB por archivo; sin permisos ni seguridad avanzada; compatible con casi todo.\n- **NTFS:** soporta archivos mayores de 4 GB; incluye permisos (ACL), cifrado (EFS), compresión y journaling.\n- **exFAT:** pensado para memorias flash y USB. Supera el límite de 4 GB por archivo de FAT32 (hasta 16 EB teóricos) sin la sobrecarga de metadatos de NTFS; carece de journaling y de ACL de NTFS.\n\n## Conversión FAT32 → NTFS sin pérdida de datos\n\nComando (ejecutar como Administrador):\n\n```\nconvert I: /fs:ntfs\n```\n\n- Requiere **consola de símbolo del sistema como Administrador** (sin privilegios, la operación se rechaza).\n- Solicita la **etiqueta del volumen** actual (ej. `ITE`).\n- La conversión preserva los datos existentes.\n\n### Cambios estructurales tras la conversión a NTFS\n\nAparece la pestaña **Seguridad** en las propiedades de la unidad y de sus archivos, permitiendo asignar permisos explícitos de Lectura, Escritura, Modificación y Control Total a usuarios o grupos mediante **ACL** (Listas de Control de Acceso).\n\n> ⚠️ **Punto de atención:** la conversión es unidireccional en la práctica (NTFS → FAT32 requiere reformateo, con pérdida de datos). Verificar la etiqueta del volumen antes de ejecutar.\n\n## Formateo: bajo nivel vs estándar\n\n- **Formato de bajo nivel:** crea las pistas del disco (marcadores de sector); se realiza en fábrica.\n- **Formato estándar (alto nivel):** crea el sector de arranque y la tabla de asignación de archivos (NTFS/FAT32). Marca el espacio como disponible, pero **no borra los datos subyacentes**.\n\n## Higienización y baja segura\n\nAntes de reutilizar o dar de baja un soporte hay que garantizar que la información no se pueda recuperar. Los métodos dependen del tipo de medio:\n\n| Método | Cómo actúa | Medio adecuado |\n|---|---|---|\n| **Borrado seguro** (*wiping*) | Sobrescribe cada sector con patrones de ceros, unos o datos pseudoaleatorios en varias pasadas | SSD y memorias flash; también HDD |\n| **Desmagnetización** (*degaussing*) | Campo electromagnético intenso que destruye los dominios magnéticos y el servo-posicionamiento | HDD y cintas magnéticas |\n| **Destrucción física** | Trituración o daño irreversible del soporte | Cualquier medio; cuando no basta el borrado lógico |\n\nEl formateo estándar **no** es un método de higienización: solo reescribe la estructura lógica. En SSD y memorias flash no se aplica degaussing (no son magnéticos): el método indicado es la sobrescritura por software.\n\n> ⚠️ **Punto de atención:** el degaussing inutiliza el disco (destruye también las pistas de servo); no es un borrado reutilizable.\n\n## Punto de atención\n- ⚠️ **No confundir:** tabla de partición (MBR/GPT) vs sistema de archivos (FAT32/NTFS/exFAT). Son capas independientes.\n- ⚠️ **Punto de atención:** un disco con esquema MBR solo admite particiones de hasta 2 TB; para discos mayores se requiere GPT.\n- ⚠️ **Punto de atención:** el límite de 9,4 ZB de GPT es teórico; los límites prácticos de Windows y del hardware son muy inferiores.\n- ⚠️ **Punto de atención:** GPT se combina con UEFI; un disco GPT en un equipo con BIOS tradicional no arranca.\n\n## Idea clave\nLa administración de discos combina dos capas independientes —tabla de partición (MBR hasta 2 TB / GPT hasta 9,4 ZB teóricos) y sistema de archivos (FAT32 límite 4 GB por archivo / NTFS con ACL / exFAT para flash)— y permite convertir FAT32 a NTFS sin pérdida de datos con `convert I: /fs:ntfs` como Administrador. Antes de dar de baja un soporte, la higienización exige borrado seguro, degaussing o destrucción física; el formateo estándar no borra los datos.\n\n![[gemini-code-1794944816414.html|height: calc(100vh - 140px)]]\n"
+    },
+    {
+      "slug": "modelos-de-red-osi-y-tcpip",
+      "titulo": "Modelos de red OSI y TCP/IP",
+      "archivo": "Modelos_de_Red_OSI_y_TCPIP.md",
+      "modulo": "m4",
+      "orden": 9,
+      "fecha": "2026-11-18",
+      "hash": "2407ebba5bcf",
+      "bytes": 5449,
+      "palabras": 932,
+      "estado": "pendiente_revision",
+      "nivel": "2",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura",
+        "redes"
+      ],
+      "aliases": [
+        "Modelo OSI",
+        "OSI",
+        "TCP/IP",
+        "Capas de red"
+      ],
+      "resumen": "Los modelos de referencia OSI y TCP/IP son abstracciones en capas que explican cómo se encapsulan y transportan los datos entre dispositivos. OSI es el modelo teórico de siete capas; TCP/IP…",
+      "enlaces": [
+        "conmutacion-vlan-y-stp",
+        "mantenimiento-y-troubleshooting",
+        "redes-y-direccionamiento-ip",
+        "servicios-de-red-y-acl"
+      ],
+      "md": "Los **modelos de referencia OSI y TCP/IP** son abstracciones en capas que explican cómo se encapsulan y transportan los datos entre dispositivos. OSI es el modelo teórico de siete capas; TCP/IP es el modelo práctico de cuatro que usan las redes reales. Sirven para diseñar protocolos, ubicar dispositivos y diagnosticar fallos capa por capa.\n\n## Bases y prerrequisitos\n- Ninguno (nota de entrada al módulo de redes).\n\n## Ver también / Para profundizar\n- [[Redes_y_Direccionamiento_IP]] — aplicación: direcciones IPv4/IPv6 y máscaras que operan en la capa de red.\n- [[Conmutacion_VLAN_y_STP]] — capa 2: tramas, VLAN y switches.\n- [[Servicios_de_Red_y_ACL]] — capas 4-7: puertos, traducción y filtrado.\n- [[Mantenimiento_y_Troubleshooting]] — uso del modelo para aislar averías.\n\n## Clasificación de redes y topologías\n\n| Tipo | Alcance | Rasgo que la identifica |\n|---|---|---|\n| **LAN** (*Local Area Network*) | Oficina, campus, hogar | Alta velocidad y administración bajo un mismo dominio |\n| **WMN** (*Wireless Mesh Network*) | Cobertura inalámbrica local | Varios puntos de acceso se interconectan entre sí de forma resiliente |\n| **MAN** (*Metropolitan Area Network*) | Ciudad o varias sedes urbanas | Interconexión metropolitana |\n| **WAN** (*Wide Area Network*) | Países o continentes | Une LAN separadas geográficamente mediante enlaces de proveedores |\n| **VPN** (*Virtual Private Network*) | Túnel sobre Internet | Cifra el tráfico para entrar en una red privada a través de una red no confiable |\n\nLa topología no es el tamaño: dos LAN pueden usar estrella o malla. La clasificación anterior describe el alcance; la topología describe cómo se conectan los nodos.\n\n## Las siete capas del modelo OSI\n\n| Capa | Nombre | PDU | Función y dispositivos clave |\n|---|---|---|---|\n| 7 | Aplicación | Datos | Interfaz con las aplicaciones: HTTP, DNS, DHCP, SSH, SNMP |\n| 6 | Presentación | Datos | Cifrado (TLS), compresión y codificación de formatos |\n| 5 | Sesión | Datos | Apertura, mantenimiento y cierre de sesiones entre hosts |\n| 4 | Transporte | Segmento (TCP) / datagrama (UDP) | Comunicación extremo a extremo y control de flujo |\n| 3 | Red | Paquete | Direccionamiento lógico (IPv4/IPv6) y selección de ruta; routers y switches de capa 3 |\n| 2 | Enlace de datos | Trama | Direccionamiento físico (MAC) y acceso al medio; switches y bridges |\n| 1 | Física | Bits | Transmisión eléctrica, óptica o inalámbrica; cables, hubs y repetidores |\n\n**PDU** (*Protocol Data Unit*) es el nombre que recibe la unidad de datos en cada capa. Al bajar por la pila, cada capa añade su cabecera: el paquete se convierte en trama y la trama en bits.\n\n> 🧠 **Idea clave:** capa 2 mueve tramas dentro de la red local con direcciones MAC; capa 3 mueve paquetes entre redes distintas con direcciones IP.\n\n## TCP/IP: el modelo que se implementa\n\n| Capa TCP/IP | Equivale a OSI | Protocolos y funciones |\n|---|---|---|\n| Aplicación | 5, 6 y 7 | HTTP, DNS, DHCP, SSH, SNMP |\n| Transporte | 4 | TCP y UDP |\n| Internet | 3 | IP, ICMP |\n| Acceso a la red | 1 y 2 | Ethernet, Wi-Fi, MAC, medios físicos |\n\nTCP/IP agrupa las tres capas superiores de OSI porque en la práctica las aplicaciones gestionan presentación y sesión. El modelo de cuatro capas es el que se usa para describir Internet.\n\n## TCP frente a UDP\n\n- **TCP** (*Transmission Control Protocol*): orientado a conexión. Establece la sesión con un *three-way handshake*, confirma la recepción con acuses (ACK) y retransmite los segmentos perdidos. Se usa cuando la integridad importa más que la latencia (web, SSH, correo).\n- **UDP** (*User Datagram Protocol*): no orientado a conexión. Entrega en modo *best-effort*, sin confirmación ni retransmisión. Se usa cuando prima la latencia (VoIP, streaming, DNS).\n\n## Puertos bien conocidos\n\n| Servicio | Puerto | Transporte |\n|---|---|---|\n| SSH | 22 | TCP |\n| DNS | 53 | UDP y TCP |\n| DHCP | 67 (servidor) / 68 (cliente) | UDP |\n| HTTP | 80 | TCP |\n| HTTPS | 443 | TCP |\n| Syslog | 514 | UDP |\n\nUn puerto identifica el servicio dentro de un host; la IP identifica el host. Por eso una conexión se describe con la pareja `IP:puerto`.\n\n## ICMP y diagnóstico por capas\n\n**ICMP** (*Internet Control Message Protocol*) opera en capa 3 y transporta mensajes de control y error. `ping` usa *Echo Request* / *Echo Reply* para comprobar alcanzabilidad; `traceroute` lo usa para descubrir el camino.\n\nEl modelo sirve para aislar fallos en orden ascendente: primero el enlace físico (capa 1: cable, LED), después la tabla MAC y la VLAN (capa 2), luego la IP, la máscara y la puerta de enlace (capa 3) y, por último, los puertos y servicios (capas 4-7). Empezar por la capa más baja evita perseguir un problema de aplicación cuando el cable está desconectado.\n\n> ⚠️ **No confundir:** modelo OSI (7 capas, referencia teórica) vs TCP/IP (4 capas, implementación práctica). No son dos realidades distintas: TCP/IP se corresponde con OSI agrupando capas.\n>\n> ⚠️ **No confundir:** switch de capa 2 (decide por MAC) vs router (decide por IP). Un switch de capa 3 hace ambas funciones.\n\n## Idea clave\nOSI describe siete capas con su PDU (datos, segmento, paquete, trama, bits) y TCP/IP las reduce a cuatro; en la práctica, la dirección MAC mueve tramas por la LAN, la IP mueve paquetes entre redes y los puertos identifican el servicio, lo que permite diagnosticar de la capa 1 hacia arriba.\n"
+    },
+    {
+      "slug": "redes-y-direccionamiento-ip",
+      "titulo": "Redes y direccionamiento IP",
+      "archivo": "Redes_y_Direccionamiento_IP.md",
+      "modulo": "m4",
+      "orden": 10,
+      "fecha": "2026-11-18",
+      "hash": "0f938859c808",
+      "bytes": 6208,
+      "palabras": 992,
+      "estado": "pendiente_revision",
+      "nivel": "3",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura"
+      ],
+      "aliases": [
+        "IPv4",
+        "Direccionamiento IP",
+        "Subredes"
+      ],
+      "resumen": "Cada octeto son 8 bits (1 byte); una IPv4 completa son 32 bits.",
+      "enlaces": [
+        "conmutacion-vlan-y-stp",
+        "despliegue-nginx-docker",
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "enrutamiento-estatico-cisco",
+        "modelos-de-red-osi-y-tcpip",
+        "servicios-de-red-y-acl"
+      ],
+      "md": "**Redes y direccionamiento IP** abarca los fundamentos del direccionamiento IPv4 (clases, conversión decimal-binario, rangos privados RFC 1918), las máscaras de subred y CIDR, las direcciones MAC y la notación IPv6. Es la base para comprender el enrutamiento y la configuración de dispositivos de red.\n\n## Bases y prerrequisitos\n- [[Modelos_de_Red_OSI_y_TCPIP]] — capas, PDU y ubicación de IP en la capa de red.\n\n## Ver también / Para profundizar\n- [[Enrutamiento_Estatico_Cisco]] — aplicación: configuración de routers con estas direcciones.\n- [[Conmutacion_VLAN_y_STP]] — cada VLAN se asocia a una subred.\n- [[Servicios_de_Red_y_ACL]] — DHCP, DNS, NAT y puertos.\n- [[Despliegue_Nginx_Docker]] — los contenedores usan puertos y redes.\n\n## Conversión decimal a binario\n\nEjemplo con la IP `192.168.1.25`:\n\n- `192` → `11000000` (128 + 64)\n- `168` → `10101000` (128 + 32 + 8)\n- `1` → `00000001` (1)\n- `25` → `00011001` (16 + 8 + 1)\n\nCada octeto son 8 bits (1 byte); una IPv4 completa son 32 bits.\n\n## Clases de direcciones IPv4 y rangos privados (RFC 1918)\n\n| Clase | Rango privado | Máscara típica | Hosts útiles |\n|---|---|---|---|\n| A | 10.0.0.0 – 10.255.255.255 | /8 (255.0.0.0) | ~16 millones |\n| B | 172.16.0.0 – 172.31.255.255 | /12 (255.240.0.0) | ~65 mil |\n| C | 192.168.0.0 – 192.168.255.255 | /24 (255.255.255.0) | 254 |\n\n## Máscaras de subred y /30\n\n- La máscara define qué parte de la IP es red y qué parte es host.\n- **Máscara /30 (255.255.255.252):** asigna 2 bits para hosts (2² − 2 = 2 hosts útiles). Es la máscara óptima para enlaces punto a punto entre routers porque evita el desperdicio de direcciones IP.\n\n## CIDR, hosts útiles y sumarización\n\nLa notación **CIDR** expresa la máscara como el número de bits de red: `/24` equivale a `255.255.255.0` (24 bits de red y 8 de host).\n\n**Hosts útiles = 2ⁿ − 2**, donde `n` es el número de bits de host. Se restan la dirección de red (todos los bits de host a 0) y la de broadcast (todos a 1).\n\n| Prefijo | Máscara | Bits de host | Hosts útiles |\n|---|---|---|---|\n| /30 | 255.255.255.252 | 2 | 2 |\n| /29 | 255.255.255.248 | 3 | 6 |\n| /28 | 255.255.255.240 | 4 | 14 |\n| /24 | 255.255.255.0 | 8 | 254 |\n\n**Sumarización de rutas** (*route summarization*): varias subredes contiguas se agrupan en una única ruta resumida. Reduce el tamaño de las tablas de enrutamiento y el número de anuncios; se aplica en [[Enrutamiento_Estatico_Cisco]] y en los protocolos de [[Enrutamiento_Dinamico_y_Alta_Disponibilidad]].\n\n## Direcciones especiales\n\n- **APIPA (169.254.x.x):** autoconfiguración cuando no hay servidor DHCP. Solo permite comunicación local en la misma subred física; no permite enrutamiento hacia redes externas ni hacia Internet.\n- **Broadcast:** transmisión desde un emisor hacia todos los dispositivos de la red simultáneamente.\n\n## Direcciones MAC\n\n- **MAC (48 bits en hexadecimal):** dirección física del adaptador. Formato estándar: `00-50-56-BE-D7-87` (6 pares hexadecimales separados por guiones o dos puntos).\n- Opera en la **capa 2** y solo tiene alcance dentro del dominio local; un router la reescribe en cada salto.\n\n## IPv6\n\n- **128 bits** escritos como 8 grupos de 16 bits en hexadecimal (ej. `2001:db8:cafe:200::6`, `FF02::1`). Los ceros a la izquierda de cada grupo se omiten y `::` sustituye una secuencia de grupos nulos.\n- **SLAAC** (*Stateless Address Autoconfiguration*): el host forma su propia dirección a partir del prefijo anunciado por el router, sin servidor DHCP.\n- **Sin NAT:** el espacio de direcciones es suficiente para dar una dirección global a cada dispositivo; NAT deja de ser una necesidad de conservación.\n- **Cabecera simplificada** respecto a IPv4, lo que reduce el procesamiento en los routers.\n\nLa fuente no detalla los tipos de dirección IPv6 (global, link-local, ULA) ni el subnetting, así que quedan como **pendiente** para una próxima fuente.\n\n## Protocolos clave (de los patrones de examen)\n\n- **DHCP:** asigna automáticamente direcciones IP, máscara y gateway a los hosts.\n- **DNS:** traduce nombres de dominio (cisco.com) a direcciones IP.\n- **POP3:** descarga correo del servidor y lo elimina del servidor.\n- **IDS vs IPS:** IDS monitorea pasivamente y alerta; IPS actúa activamente bloqueando.\n\n## TCP, UDP y puertos\n\n| Protocolo | Conexión | Garantía | Uso típico |\n|---|---|---|---|\n| **TCP** | Orientado a conexión (*three-way handshake*) | ACK y retransmisión de segmentos perdidos | Web, SSH, correo |\n| **UDP** | No orientado a conexión | Entrega *best-effort*, sin confirmación | VoIP, streaming, DNS |\n\nLos servicios se identifican por **puerto**: SSH 22/TCP, DNS 53/UDP y TCP, DHCP 67-68/UDP, HTTP 80/TCP, HTTPS 443/TCP y Syslog 514/UDP. La pareja `IP:puerto` identifica una conexión concreta. El detalle está en [[Servicios_de_Red_y_ACL]].\n\n## ICMP y topologías\n\n**ICMP** (*Internet Control Message Protocol*) es el protocolo de diagnóstico y control de la capa 3. `ping` envía *Echo Request* y espera *Echo Reply*; `traceroute` lo usa para descubrir el camino salto a salto. ICMP no transporta datos de usuario: informa de alcanzabilidad y errores.\n\nLas redes se clasifican por alcance (LAN, MAN, WAN, VPN y malla inalámbrica WMN); la topología describe cómo se conectan los nodos. Ambos conceptos se desarrollan en [[Modelos_de_Red_OSI_y_TCPIP]].\n\n> ⚠️ **No confundir:** IDS (detección pasiva, solo alerta) vs IPS (prevención activa, bloquea). DHCP (asigna IP) vs DNS (traduce nombres). ICMP (ping) vs TCP (transporte).\n\n## Punto de atención\n- ⚠️ **Punto de atención:** una IP `169.254.x.x` indica fallo de DHCP (APIPA), no conectividad normal.\n- ⚠️ **No confundir:** dirección IP (lógica, enrutable) vs dirección MAC (física, de enlace).\n\n## Idea clave\nEl direccionamiento IPv4 se organiza en clases (A/B/C) con rangos privados RFC 1918, se convierte bit a bit entre decimal y binario y usa CIDR: los hosts útiles son 2ⁿ − 2 y /30 sirve para enlaces punto a punto. La MAC (48 bits) identifica el adaptador en la LAN, IPv6 aporta 128 bits con SLAAC y sin NAT, y TCP/UDP con sus puertos identifican los servicios; APIPA (169.254.x.x) señala un fallo de DHCP.\n"
+    },
+    {
+      "slug": "conmutacion-vlan-y-stp",
+      "titulo": "Conmutación, VLAN y STP",
+      "archivo": "Conmutacion_VLAN_y_STP.md",
+      "modulo": "m5",
+      "orden": 11,
+      "fecha": "2026-11-18",
+      "hash": "6a27e6067554",
+      "bytes": 5559,
+      "palabras": 859,
+      "estado": "pendiente_revision",
+      "nivel": "3",
+      "tipo": "procedimiento",
+      "tags": [
+        "Infraestructura",
+        "redes"
+      ],
+      "aliases": [
+        "VLAN",
+        "STP",
+        "Spanning Tree",
+        "EtherChannel",
+        "802.1Q"
+      ],
+      "resumen": "La conmutación VLAN y STP es el conjunto de técnicas de capa 2 que segmentan una red local en dominios lógicos aislados ( VLAN ), transportan varias VLAN por un mismo enlace ( trunk 802.1Q…",
+      "enlaces": [
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "modelos-de-red-osi-y-tcpip",
+        "redes-y-direccionamiento-ip",
+        "servicios-de-red-y-acl",
+        "simulacion-y-emulacion-de-redes"
+      ],
+      "md": "La **conmutación VLAN y STP** es el conjunto de técnicas de capa 2 que segmentan una red local en dominios lógicos aislados (**VLAN**), transportan varias VLAN por un mismo enlace (**trunk 802.1Q**) y evitan bucles cuando hay enlaces redundantes (**STP**). Es la base de las redes de campus y del direccionamiento por departamentos.\n\n## Bases y prerrequisitos\n- [[Modelos_de_Red_OSI_y_TCPIP]] — la trama, la MAC y la capa 2 son el punto de partida.\n- [[Redes_y_Direccionamiento_IP]] — cada VLAN suele corresponder a una subred IP.\n\n## Ver también / Para profundizar\n- [[Enrutamiento_Dinamico_y_Alta_Disponibilidad]] — cómo se comunican VLAN distintas (Router-on-a-Stick y SVI).\n- [[Servicios_de_Red_y_ACL]] — filtrado del tráfico entre VLAN.\n- [[Simulacion_y_Emulacion_Redes]] — laboratorios con switches Cisco.\n\n## VLAN: segmentar el dominio de broadcast\n\nUn switch de capa 2 inspecciona la **MAC de destino** de cada trama y la reenvía solo por el puerto donde está conectado ese dispositivo, sin inundar toda la red. Una **VLAN** (*Virtual Local Area Network*) lleva esa lógica más lejos: divide un switch físico en varias redes virtuales aisladas.\n\n- Cada VLAN es un **dominio de broadcast** independiente: un *broadcast* de la VLAN 10 no llega a la VLAN 20.\n- La segmentación mejora seguridad y eficiencia: el tráfico de un departamento no circula por los puertos de otro.\n- Cada VLAN necesita su propio direccionamiento IP; dos VLAN distintas son dos subredes distintas.\n\n**Ejemplo típico:** VLAN 10 para Ventas, VLAN 20 para IT, VLAN 30 para invitados.\n\n## Puertos access y trunk\n\n| Modo | Qué transporta | Uso |\n|---|---|---|\n| **Access** | Una sola VLAN, tramas sin etiquetar | Puerto hacia un PC, impresora o servidor final |\n| **Trunk** | Varias VLAN, cada trama etiquetada | Enlace entre switches o hacia un router |\n\nEl etiquetado de trunk lo define el estándar **IEEE 802.1Q**: inserta una etiqueta con el identificador de VLAN en la trama, de modo que el switch del otro extremo sabe a qué VLAN pertenece.\n\n> 🧠 **Idea clave:** *access* = una VLAN sin etiqueta; *trunk* = muchas VLAN con etiqueta 802.1Q.\n\n## STP: evitar bucles de capa 2\n\nCon enlaces redundantes, una trama de broadcast puede circular indefinidamente: es una **tormenta de broadcast** que satura la red. **STP** (*Spanning Tree Protocol*, IEEE 802.1D) evita el bucle construyendo un árbol lógico sin ciclos.\n\n1. Los switches intercambian **BPDU** (*Bridge Protocol Data Units*) con información de prioridad y coste.\n2. Se elige un **Root Bridge**: el switch con menor prioridad (y, en empate, la menor MAC).\n3. Cada switch elige su puerto raíz hacia el Root Bridge y bloquea lógicamente los puertos alternativos.\n4. Si el enlace activo falla, STP recalcula y activa el puerto bloqueado.\n\n**RSTP** (IEEE 802.1w) es la versión rápida, con convergencia en segundos. **MST** agrupa varias VLAN en instancias para reducir el número de árboles y mejorar el uso de los enlaces.\n\n## EtherChannel: varios cables, un enlace lógico\n\n**EtherChannel** agrupa de 2 a 8 enlaces físicos Ethernet en un único canal lógico de mayor ancho de banda y tolerancia a fallos. Sin él, STP bloquearía los enlaces redundantes; con él, todos transportan tráfico y el fallo de un cable no corta la conexión.\n\n- **LACP** (*Link Aggregation Control Protocol*): estándar abierto, negocia la agregación entre fabricantes.\n- **PAgP** (*Port Aggregation Protocol*): propietario de Cisco.\n\n## Sintaxis en Cisco IOS\n\nConfiguración de una VLAN, un puerto access y un trunk (origen: `gemini-code-1794944816414.html`, bloque de VLAN; no ejecutada en esta sesión).\n\n```text\nSwitch(config)# vlan 10\nSwitch(config-vlan)# name ADMINISTRACION\nSwitch(config-vlan)# exit\n\nSwitch(config)# interface fastEthernet 0/1\nSwitch(config-if)# switchport mode access\nSwitch(config-if)# switchport access vlan 10\n\nSwitch(config)# interface gigabitEthernet 0/1\nSwitch(config-if)# switchport mode trunk\n```\n\n- `vlan 10` crea la VLAN; `name` le asigna una etiqueta legible.\n- `switchport mode access` fija el puerto para un dispositivo final y `switchport access vlan 10` lo asigna a la VLAN.\n- `switchport mode trunk` convierte el puerto en enlace troncal.\n\n*Salida esperada (razonada, no ejecutada):* el puerto `Fa0/1` queda en la VLAN 10 y el `Gi0/1` transporta todas las VLAN etiquetadas. La fuente no incluye la salida de `show vlan brief`, así que no se reproduce.\n\n## Inter-VLAN: el paso siguiente\n\nDos VLAN no se comunican solas: hace falta un dispositivo de capa 3. Se resuelve con **Router-on-a-Stick** (subinterfaces 802.1Q en un router) o con un **switch multicapa** y sus **SVI** (*Switch Virtual Interface*). El desarrollo está en [[Enrutamiento_Dinamico_y_Alta_Disponibilidad]].\n\n> ⚠️ **No confundir:** VLAN (segmento lógico de capa 2) vs subred IP (segmento de capa 3). Se diseñan juntas, pero una VLAN puede tener varias subredes y una subred puede repartirse entre VLAN.\n>\n> ⚠️ **No confundir:** *access* (una VLAN, sin etiqueta) vs *trunk* (varias VLAN, con etiqueta 802.1Q).\n>\n> ⚠️ **No confundir:** STP evita bucles de capa 2 entre switches; FHRP da redundancia a la puerta de enlace de capa 3. No compiten: resuelven fallos distintos.\n\n## Idea clave\nLas VLAN dividen un switch en dominios de broadcast aislados; los trunk 802.1Q transportan varias VLAN entre switches; STP elige un Root Bridge y bloquea puertos para evitar bucles; y EtherChannel suma enlaces físicos en uno lógico para ganar ancho de banda y redundancia sin que STP los bloquee.\n"
+    },
+    {
+      "slug": "enrutamiento-estatico-cisco",
+      "titulo": "Enrutamiento estático Cisco",
+      "archivo": "Enrutamiento_Estatico_Cisco.md",
+      "modulo": "m5",
+      "orden": 12,
+      "fecha": "2026-11-18",
+      "hash": "a3e544fc8289",
+      "bytes": 5519,
+      "palabras": 804,
+      "estado": "pendiente_revision",
+      "nivel": "3",
+      "tipo": "procedimiento",
+      "tags": [
+        "Infraestructura"
+      ],
+      "aliases": [
+        "Cisco IOS",
+        "Rutas estáticas",
+        "Enrutamiento estático"
+      ],
+      "resumen": "La ruta por defecto es una ruta estática que coincide con cualquier destino: se representa como 0.0.0.0/0 (prefijo cero, máscara 0.0.0.0 ). Se usa para enviar a un único vecino todo el…",
+      "enlaces": [
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "redes-y-direccionamiento-ip",
+        "servicios-de-red-y-acl"
+      ],
+      "md": "**Enrutamiento estático en routers Cisco** es la configuración manual de rutas en dispositivos Cisco IOS para interconectar redes no directamente conectadas. Se realiza mediante la línea de comandos (CLI) y es fundamental para comprender cómo los routers toman decisiones de reenvío.\n\n## Bases y prerrequisitos\n- [[Redes_y_Direccionamiento_IP]] — direccionamiento IP, máscaras y /30 son prerrequisito.\n\n## Ver también / Para profundizar\n- [[Enrutamiento_Dinamico_y_Alta_Disponibilidad]] — OSPF, EIGRP y FHRP: cuándo una ruta deja de configurarse a mano.\n- [[Redes_y_Direccionamiento_IP]] — referencia de direccionamiento.\n- [[Servicios_de_Red_y_ACL]] — ACL y NAT aplicadas al tráfico enrutado.\n\n## Topología de ejemplo\n\n```\nLAN 1: PC1 → SW1 → R1 (GigabitEthernet 0/0/0)\nWAN:   R1 (Serial 0/0/0) ↔ R2 (Serial 0/0/0)\nLAN 2: R2 (GigabitEthernet 0/0/0) → SW2 → PC2\n```\n\n## Asignación de direcciones IP\n\n- **PC1:** IP 192.168.1.2, máscara /24, gateway 192.168.1.1\n- **PC2:** IP 192.168.2.2, máscara /24, gateway 192.168.2.1\n- **R1 (LAN):** 192.168.1.1/24 — **R1 (WAN):** 10.0.0.1/30\n- **R2 (LAN):** 192.168.2.1/24 — **R2 (WAN):** 10.0.0.2/30\n\n## Configuración CLI — Router R1\n\n```\nenable\nconfigure terminal\nhostname R1\ninterface gigabitEthernet 0/0/0\n ip address 192.168.1.1 255.255.255.0\n no shutdown\n exit\ninterface serial 0/0/0\n ip address 10.0.0.1 255.255.255.252\n no shutdown\n exit\nip route 192.168.2.0 255.255.255.0 10.0.0.2\nend\nwrite memory\n```\n\n## Configuración CLI — Router R2\n\n```\nenable\nconfigure terminal\nhostname R2\ninterface gigabitEthernet 0/0/0\n ip address 192.168.2.1 255.255.255.0\n no shutdown\n exit\ninterface serial 0/0/0\n ip address 10.0.0.2 255.255.255.252\n no shutdown\n exit\nip route 192.168.1.0 255.255.255.0 10.0.0.1\nend\nwrite memory\n```\n\n## Análisis del enrutamiento\n\n- **Siguiente salto (Next Hop):** en `ip route 192.168.2.0 255.255.255.0 10.0.0.2`, la IP `10.0.0.2` es la dirección de la interfaz del router vecino (R2) en el enlace serial. Enseña al router cómo alcanzar redes no directamente conectadas.\n- **Máscara /30 (255.255.255.252):** enlace punto a punto entre routers; evita desperdicio de IPs.\n- `write memory` guarda la configuración en la NVRAM (persistente tras reinicio).\n- `no shutdown` activa la interfaz (por defecto las interfaces están apagadas).\n\n> 🧠 **Idea clave:** `ip route <red_destino> <máscara> <next_hop>` — el router aprende a llegar a redes remotas indicando el siguiente salto.\n\n## Ruta por defecto\n\nLa **ruta por defecto** es una ruta estática que coincide con cualquier destino: se representa como `0.0.0.0/0` (prefijo cero, máscara `0.0.0.0`). Se usa para enviar a un único vecino todo el tráfico que no tenga una ruta más específica, típicamente hacia el proveedor de Internet o hacia el router de salida de una sucursal.\n\n*Sintaxis adaptada de la plantilla de la fuente (no aparece literalmente en sus bloques):*\n\n```text\nip route 0.0.0.0 0.0.0.0 <IP_siguiente_salto>\n```\n\nEs la ruta menos específica de la tabla: cualquier otra ruta con un prefijo mayor tiene prioridad. Por eso convive con las rutas concretas sin sustituirlas.\n\n## Verificación: `show ip route`\n\n`show ip route` muestra la tabla de enrutamiento del router: redes directamente conectadas, rutas estáticas y rutas aprendidas por protocolos dinámicos. Es el comando de comprobación tras configurar `ip route`.\n\n*Salida esperada (razonada, no ejecutada):* una entrada por red, con el código de origen de la ruta (`C` para conectada, `S` para estática) y el siguiente salto o la interfaz de salida. La fuente no reproduce la salida literal, así que no se transcribe.\n\n## Distancia administrativa\n\nCuando dos fuentes ofrecen una ruta al mismo destino, el router elige la de **menor distancia administrativa** (*administrative distance*). Es un valor de preferencia entre el origen de la información (ruta conectada, estática o protocolo dinámico), no una medida de velocidad del enlace.\n\n- Menor distancia = fuente más fiable.\n- La distancia administrativa decide **qué ruta se instala**; la métrica decide cuál es la mejor **dentro de un mismo protocolo**.\n- Una ruta estática suele preferirse a una dinámica, salvo que se ajuste su distancia.\n\nLos protocolos que aprenden rutas automáticamente se estudian en [[Enrutamiento_Dinamico_y_Alta_Disponibilidad]].\n\n## Punto de atención\n- ⚠️ **Punto de atención:** el next hop debe ser alcanzable (directamente conectado). Si el enlace serial está down, la ruta estática queda inactiva.\n- ⚠️ **Punto de atención:** `write memory` es necesario para persistir la configuración; sin él, los cambios se pierden al reiniciar.\n- ⚠️ **Punto de atención:** la ruta por defecto es la menos específica; si existe una ruta con prefijo mayor hacia el destino, esa gana.\n- ⚠️ **No confundir:** `ip route` (ruta estática manual) vs protocolos dinámicos (OSPF, RIP, EIGRP) que aprenden rutas automáticamente.\n- ⚠️ **No confundir:** distancia administrativa (preferencia entre fuentes de ruta) vs métrica (coste dentro de un protocolo).\n\n## Idea clave\nEl enrutamiento estático en Cisco IOS se configura con `ip route <red> <máscara> <next_hop>` para alcanzar redes remotas por el siguiente salto, con máscaras /30 en enlaces punto a punto y `write memory` para persistir. La ruta por defecto `0.0.0.0/0` cubre cualquier destino sin ruta específica, `show ip route` verifica la tabla y la distancia administrativa decide qué fuente de ruta se instala.\n"
+    },
+    {
+      "slug": "enrutamiento-dinamico-y-alta-disponibilidad",
+      "titulo": "Enrutamiento dinámico y alta disponibilidad",
+      "archivo": "Enrutamiento_Dinamico_y_Alta_Disponibilidad.md",
+      "modulo": "m5",
+      "orden": 13,
+      "fecha": "2026-11-18",
+      "hash": "3dcd764920c8",
+      "bytes": 5814,
+      "palabras": 912,
+      "estado": "pendiente_revision",
+      "nivel": "4",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura",
+        "redes"
+      ],
+      "aliases": [
+        "OSPF",
+        "EIGRP",
+        "HSRP",
+        "VRRP",
+        "FHRP",
+        "Enrutamiento dinámico"
+      ],
+      "resumen": "El enrutamiento dinámico y la alta disponibilidad agrupan los protocolos con los que los routers descubren rutas automáticamente ( OSPF , EIGRP ) y los que evitan que la puerta de enlace…",
+      "enlaces": [
+        "conmutacion-vlan-y-stp",
+        "enrutamiento-estatico-cisco",
+        "mantenimiento-y-troubleshooting",
+        "redes-y-direccionamiento-ip",
+        "servicios-de-red-y-acl"
+      ],
+      "md": "El **enrutamiento dinámico y la alta disponibilidad** agrupan los protocolos con los que los routers descubren rutas automáticamente (**OSPF**, **EIGRP**) y los que evitan que la puerta de enlace sea un punto único de fallo (**FHRP**: HSRP, VRRP, GLBP). Complementan el enrutamiento estático en redes medianas y grandes, donde configurar cada ruta a mano no escala.\n\n## Bases y prerrequisitos\n- [[Enrutamiento_Estatico_Cisco]] — `ip route`, siguiente salto y distancia administrativa.\n- [[Redes_y_Direccionamiento_IP]] — subredes y máscaras para interpretar las rutas.\n- [[Conmutacion_VLAN_y_STP]] — las VLAN que hay que enrutar.\n\n## Ver también / Para profundizar\n- [[Servicios_de_Red_y_ACL]] — NAT, ACL y servicios que corren sobre estas rutas.\n- [[Mantenimiento_y_Troubleshooting]] — `show ip route` y diagnóstico.\n\n## Estático frente a dinámico\n\n| Criterio | Estático | Dinámico |\n|---|---|---|\n| Configuración | Manual, ruta por ruta | El protocolo descubre y actualiza |\n| Escala | Redes pequeñas y rutas por defecto | Redes medianas y grandes |\n| Reacción a fallos | No reacciona solo | Recalcula y converge |\n| Coste | Cero protocolo, mucho mantenimiento | Consumo de CPU, memoria y ancho de banda |\n\nEl enrutamiento estático sigue siendo la elección para **rutas por defecto** (`0.0.0.0/0`) y enlaces punto a punto. El dinámico añade tolerancia a fallos: si un enlace cae, el router aprende el camino alternativo sin intervención.\n\n## OSPF\n\n**OSPF** (*Open Shortest Path First*) es un protocolo de **estado de enlace** (*link-state*), estándar abierto.\n\n- Cada router construye un mapa completo de la topología y calcula la ruta más corta con el **algoritmo de Dijkstra** (SPF).\n- La métrica es el **coste**, derivado del ancho de banda del enlace.\n- La red se organiza en **áreas** jerárquicas; el **Área 0** es el *backbone* por el que se conectan las demás.\n- Al ser estándar, funciona entre fabricantes distintos.\n\n## EIGRP\n\n**EIGRP** (*Enhanced Interior Gateway Routing Protocol*) es un protocolo de **vector distancia** avanzado, propietario de Cisco.\n\n- Usa el algoritmo **DUAL** (*Diffusing Update Algorithm*), que guarda rutas de respaldo y permite una convergencia muy rápida.\n- Soporta **balanceo de carga de coste desigual**, útil cuando hay caminos de distinta capacidad.\n- Su uso queda restringido a equipos Cisco (o a implementaciones compatibles).\n\n> 🧠 **Idea clave:** OSPF = mapa completo + Dijkstra + áreas + estándar abierto. EIGRP = vector distancia + DUAL + convergencia rápida + Cisco.\n\n## Enrutamiento inter-VLAN\n\nPara que dos VLAN se comuniquen hace falta un dispositivo de capa 3. Hay dos métodos:\n\n1. **Router-on-a-Stick:** un switch de capa 2 se conecta a una interfaz física del router mediante un trunk 802.1Q. Esa interfaz se divide en **subinterfaces** (`Fa0/0.10`, `Fa0/0.20`), y cada una actúa como puerta de enlace de su VLAN.\n2. **Switch multicapa (capa 3):** usa **SVI** (*Switch Virtual Interface*), una interfaz virtual por VLAN dentro del propio switch. El enrutamiento ocurre a velocidad de cable, sin salir al router.\n\n| Método | Ventaja | Limitación |\n|---|---|---|\n| Router-on-a-Stick | Sencillo y económico; reutiliza un router | Todo el tráfico inter-VLAN pasa por un solo enlace |\n| SVI en switch multicapa | Alto rendimiento y menos latencia | Requiere hardware de capa 3 |\n\n## FHRP: redundancia de la puerta de enlace\n\nSi el router que hace de *default gateway* falla, los hosts de la subred pierden la salida aunque haya otro router disponible. Los **FHRP** (*First Hop Redundancy Protocols*) presentan una **IP y una MAC virtuales** compartidas entre varios routers; los hosts apuntan a esa IP virtual y no notan el cambio.\n\n| Protocolo | Estándar | Funcionamiento |\n|---|---|---|\n| **HSRP** (*Hot Standby Router Protocol*) | Propietario de Cisco | Un router *Active* y otro *Standby* comparten una IP virtual |\n| **VRRP** (*Virtual Router Redundancy Protocol*) | Estándar abierto (IETF) | Un *Master* y uno o más *Backup*; interoperable entre fabricantes |\n| **GLBP** (*Gateway Load Balancing Protocol*) | Propietario de Cisco | Redundancia y **balanceo activo-activo** en capa 2/3 |\n\n> 🧠 **Idea clave:** HSRP y VRRP dan redundancia *activo-pasivo*; GLBP reparte carga entre varios routers activos.\n\n## Sintaxis: pendiente en las fuentes\n\nLas fuentes explican el funcionamiento de OSPF, EIGRP y los FHRP, pero **no conservan los comandos de configuración**. Los bloques `<pre>` de la guía solo cubren interfaz, ruta estática y VLAN. Por eso esta nota no incluye sintaxis inventada: la configuración de `router ospf`, `network`, `router eigrp`, `standby` o `vrrp` queda como **pendiente de verificación** para una próxima fuente.\n\n> ⚠️ **Punto de atención:** no se debe confundir la distancia administrativa (criterio de preferencia entre fuentes de ruta) con la métrica del protocolo (coste dentro de OSPF, métrica compuesta en EIGRP). La primera decide qué ruta se instala; la segunda, cuál es la mejor dentro de un protocolo.\n>\n> ⚠️ **No confundir:** OSPF (estado de enlace, Dijkstra, áreas) vs EIGRP (vector distancia, DUAL, Cisco). Ambos son dinámicos, pero no interoperan entre sí.\n>\n> ⚠️ **No confundir:** HSRP (Cisco, activo/standby) vs VRRP (estándar, master/backup). GLBP añade balanceo activo-activo.\n>\n> ⚠️ **No confundir:** STP evita bucles de capa 2; FHRP evita que la puerta de enlace sea un punto único de fallo. Son problemas y soluciones distintos.\n\n## Idea clave\nOSPF calcula el camino más corto con Dijkstra sobre un mapa de áreas y EIGRP converge rápido con DUAL; para comunicar VLAN se usa Router-on-a-Stick o SVI; y HSRP, VRRP y GLBP comparten una puerta de enlace virtual para que el fallo de un router no corte la salida de la subred.\n"
+    },
+    {
+      "slug": "servicios-de-red-y-acl",
+      "titulo": "Servicios de red y ACL",
+      "archivo": "Servicios_de_Red_y_ACL.md",
+      "modulo": "m5",
+      "orden": 14,
+      "fecha": "2026-11-18",
+      "hash": "872522b7a462",
+      "bytes": 5094,
+      "palabras": 793,
+      "estado": "pendiente_revision",
+      "nivel": "3",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura",
+        "redes"
+      ],
+      "aliases": [
+        "NAT",
+        "PAT",
+        "ACL",
+        "DHCP",
+        "DNS",
+        "Servicios de red"
+      ],
+      "resumen": "Los servicios de red y las ACL son el conjunto de funciones que hacen utilizable una red ya conectada: traducir direcciones privadas a públicas ( NAT/PAT ), repartir configuración…",
+      "enlaces": [
+        "conmutacion-vlan-y-stp",
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "modelos-de-red-osi-y-tcpip",
+        "redes-y-direccionamiento-ip",
+        "seguridad-y-hardening-ti"
+      ],
+      "md": "Los **servicios de red y las ACL** son el conjunto de funciones que hacen utilizable una red ya conectada: traducir direcciones privadas a públicas (**NAT/PAT**), repartir configuración automática (**DHCP**), resolver nombres (**DNS**), filtrar tráfico (**ACL**) y operar los dispositivos (**CDP/LLDP, NTP, Syslog, SNMP, QoS**). Sin ellos, la conectividad existe pero la red no es administrable ni segura.\n\n## Bases y prerrequisitos\n- [[Modelos_de_Red_OSI_y_TCPIP]] — puertos, TCP/UDP e ICMP.\n- [[Redes_y_Direccionamiento_IP]] — direcciones privadas RFC 1918 y subredes.\n\n## Ver también / Para profundizar\n- [[Enrutamiento_Dinamico_y_Alta_Disponibilidad]] — las rutas sobre las que se aplican NAT y ACL.\n- [[Conmutacion_VLAN_y_STP]] — segmentación que las ACL pueden reforzar.\n- [[Seguridad_y_Hardening_TI]] — filtrado defensivo y bastionado.\n\n## NAT y PAT\n\n**NAT** (*Network Address Translation*) traduce direcciones IPv4 privadas (RFC 1918) a una dirección pública en el borde de Internet. Resuelve la escasez de IPv4 y oculta la estructura interna.\n\n**PAT** (*Port Address Translation*), también llamado NAT con sobrecarga, va un paso más allá: miles de hosts internos comparten **una única IP pública** y se distinguen por el **puerto de origen**. Es lo que ocurre en un router doméstico.\n\n| Técnica | Qué traduce | Cuántos hosts por IP pública |\n|---|---|---|\n| NAT básico | IP privada ↔ IP pública | Una correspondencia por host |\n| PAT | IP + puerto de origen | Muchos hosts comparten una IP |\n\n> 🧠 **Idea clave:** NAT traduce direcciones; PAT añade el puerto para multiplexar muchos hosts bajo una sola IP pública.\n\n## ACL: listas de control de acceso\n\nUna **ACL** (*Access Control List*) es una lista secuencial de reglas `permit` / `deny` que se aplica a una interfaz de router para filtrar tráfico. Se evalúa **de arriba abajo** y actúa con la primera regla que coincide; por eso el orden cambia el resultado.\n\n| Tipo | Filtra por | Cuándo se usa |\n|---|---|---|\n| **Estándar** | Solo IP de origen | Filtrado simple, cerca del destino |\n| **Extendida** | IP origen y destino, protocolo y puertos TCP/UDP | Control preciso, cerca del origen |\n\nUna ACL termina con una regla implícita `deny any`: lo que no está permitido explícitamente se descarta. Ese detalle explica muchos fallos de conectividad tras aplicar un filtro.\n\n## DHCP y el ciclo DORA\n\n**DHCP** (*Dynamic Host Configuration Protocol*) asigna automáticamente IP, máscara, puerta de enlace y servidores DNS. La conversación sigue cuatro mensajes, conocido como **DORA**:\n\n| Mensaje | Quién lo envía | Qué significa |\n|---|---|---|\n| **D**iscover | Cliente | «¿Hay algún servidor DHCP?» |\n| **O**ffer | Servidor | «Te ofrezco esta configuración» |\n| **R**equest | Cliente | «Acepto esa oferta» |\n| **A**cknowledge | Servidor | «Confirmado, úsala» |\n\nSi el cliente no obtiene respuesta, Windows recurre a **APIPA** (`169.254.x.x`), señal de que DHCP falló.\n\n## DNS\n\n**DNS** (*Domain Name System*) traduce nombres jerárquicos a direcciones IP. Los registros principales:\n\n| Registro | Función |\n|---|---|\n| `A` | Nombre → IPv4 |\n| `AAAA` | Nombre → IPv6 |\n| `CNAME` | Alias de otro nombre |\n| `MX` | Servidor de correo del dominio |\n\n## Gestión y calidad de servicio\n\n- **CDP / LLDP:** descubren vecinos directamente conectados en capa 2. CDP es propietario de Cisco; LLDP es el estándar abierto equivalente.\n- **NTP** (*Network Time Protocol*): sincroniza relojes. Es imprescindible para correlacionar registros (*logs*) y validar certificados.\n- **Syslog:** recoge eventos de los dispositivos en un servidor central.\n- **SNMP** (*Simple Network Management Protocol*): monitoriza métricas y estado de los dispositivos.\n- **QoS** (*Quality of Service*): prioriza tráfico sensible a latencia (voz, vídeo) frente a tráfico masivo.\n\n## Sintaxis: pendiente en las fuentes\n\nLa fuente explica estos servicios, pero **no incluye los comandos de configuración** de NAT, ACL, DHCP ni de los protocolos de gestión. No se copia sintaxis inventada: queda como **pendiente de verificación** para una próxima fuente.\n\n> ⚠️ **No confundir:** NAT (traduce direcciones) vs PAT (traduce dirección y puerto). Todo PAT es NAT, pero no todo NAT es PAT.\n>\n> ⚠️ **No confundir:** ACL estándar (solo origen) vs extendida (origen, destino, protocolo y puerto). La extendida permite un control mucho más fino.\n>\n> ⚠️ **No confundir:** DHCP asigna direcciones; DNS traduce nombres. Que un equipo tenga IP no implica que resuelva nombres, ni al contrario.\n>\n> ⚠️ **Punto de atención:** en una ACL, el orden de las reglas y el `deny any` implícito final son la causa habitual de un bloqueo inesperado.\n\n## Idea clave\nNAT/PAT permiten que las redes privadas salgan a Internet compartiendo direcciones públicas; las ACL filtran por origen, destino, protocolo o puerto en orden secuencial; DHCP entrega configuración con DORA y DNS resuelve nombres; y CDP/LLDP, NTP, Syslog, SNMP y QoS convierten una red conectada en una red observable y administrable.\n"
+    },
+    {
+      "slug": "simulacion-y-emulacion-de-redes",
+      "titulo": "Simulación y emulación de redes",
+      "archivo": "Simulacion_y_Emulacion_Redes.md",
+      "modulo": "m5",
+      "orden": 15,
+      "fecha": "2026-11-18",
+      "hash": "e80b171ee59f",
+      "bytes": 3996,
+      "palabras": 611,
+      "estado": "pendiente_revision",
+      "nivel": "2",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura",
+        "redes"
+      ],
+      "aliases": [
+        "Packet Tracer",
+        "GNS3",
+        "Simulador",
+        "Emulador",
+        "Idle-PC"
+      ],
+      "resumen": "La simulación y emulación de redes son las técnicas para probar topologías y configuraciones sin arriesgar la producción. Un simulador imita el comportamiento con modelos de software; un…",
+      "enlaces": [
+        "conmutacion-vlan-y-stp",
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "enrutamiento-estatico-cisco",
+        "mantenimiento-y-troubleshooting",
+        "virtualizacion-e-hipervisores"
+      ],
+      "md": "La **simulación y emulación de redes** son las técnicas para probar topologías y configuraciones sin arriesgar la producción. Un **simulador** imita el comportamiento con modelos de software; un **emulador** ejecuta la imagen real del sistema operativo del dispositivo. La diferencia decide la fidelidad, el consumo de recursos y el tipo de prácticas posibles.\n\n## Bases y prerrequisitos\n- [[Conmutacion_VLAN_y_STP]] — VLAN y STP son las prácticas habituales en estos entornos.\n- [[Enrutamiento_Estatico_Cisco]] — IOS, modos y rutas que se configuran.\n\n## Ver también / Para profundizar\n- [[Enrutamiento_Dinamico_y_Alta_Disponibilidad]] — OSPF y FHRP que se practican en el laboratorio.\n- [[Virtualizacion_e_Hipervisores]] — GNS3 se apoya en una VM y en virtualización.\n- [[Mantenimiento_y_Troubleshooting]] — validar antes de tocar producción.\n\n## Simulador frente a emulador\n\n| Criterio | Simulador | Emulador |\n|---|---|---|\n| Qué ejecuta | Un modelo de software que imita el comportamiento | La imagen binaria real del sistema operativo |\n| Fidelidad | Limitada al subconjunto implementado | Alta: responde como el hardware real |\n| Consumo | Bajo | Alto: CPU y RAM del equipo anfitrión |\n| Ejemplo | Cisco Packet Tracer | GNS3 |\n\n> 🧠 **Idea clave:** simular es imitar; emular es ejecutar el software real sobre hardware emulado. La emulación da más fidelidad a cambio de más recursos.\n\n## Cisco Packet Tracer\n\n- Programa de Cisco Networking Academy orientado a CCNA.\n- Simula el comportamiento de los dispositivos con algoritmos programados; no ejecuta imágenes reales.\n- Ligero: no requiere ajustes de CPU ni una VM auxiliar.\n- Incluye vista física y lógica, dispositivos IoT y modo de simulación paso a paso para observar el encapsulamiento PDU.\n- Limitación: solo cubre el subconjunto de comandos previsto para el curso; los comandos avanzados o de otros fabricantes no existen.\n- Los switches Catalyst (por ejemplo, 2960 o 3650) se simulan de forma nativa.\n\n## GNS3\n\n- Emulador de código abierto que ejecuta firmware real: Cisco IOS, IOU, Fortinet, VyOS y otros.\n- Arquitectura cliente-servidor: interfaz gráfica más **GNS3 VM**, con motores como Dynamips, QEMU y libvirt.\n- Soporta el conjunto de comandos de la imagen instalada, no un subconjunto didáctico.\n- Los switches se emulan con routers c37xx y la tarjeta **NM-16ESW** (*EtherSwitch*), no con switches Catalyst reales.\n- Permite conectar la topología a redes físicas mediante el objeto *Cloud* y capturar tráfico con Wireshark.\n\n## Idle-PC y virtualización anidada\n\n**Idle-PC** es un valor que GNS3 calcula para poner en reposo las instrucciones inactivas de la CPU del dispositivo emulado. Sin él, un router Cisco puede consumir un núcleo entero aunque no esté haciendo nada.\n\n**Virtualización anidada:** la GNS3 VM debe tener habilitadas las extensiones VT-x/AMD-V dentro del hipervisor anfitrión. Sin virtualización anidada, las imágenes KVM/QEMU no arrancan o rinden mal.\n\nRequisitos prácticos: CPU con VT-x/AMD-V, RAM suficiente para la VM y las imágenes, y ajuste de Idle-PC por dispositivo.\n\n> ⚠️ **No confundir:** Packet Tracer (simulador, ligero, comandos limitados) vs GNS3 (emulador, pesado, imagen real). Para CCNA básico basta el primero; para validar comportamiento real, el segundo.\n>\n> ⚠️ **No confundir:** Idle-PC (valor para reducir el consumo en reposo) con la velocidad de la CPU. No acelera el dispositivo; evita que consuma de más.\n>\n> ⚠️ **Punto de atención:** GNS3 no emula switches Catalyst nativos; usa routers con tarjeta EtherSwitch, así que algunas funciones de switching no se comportan igual.\n\n## Idea clave\nPacket Tracer simula dispositivos con modelos ligeros y un subconjunto de IOS; GNS3 emula imágenes reales sobre GNS3 VM, con más fidelidad y más consumo. GNS3 exige VT-x/AMD-V con virtualización anidada y el ajuste de Idle-PC, y emula switches con routers y tarjetas EtherSwitch en lugar de switches Catalyst nativos.\n"
+    },
+    {
+      "slug": "administracion-windows-y-linux",
+      "titulo": "Administración Windows y Linux",
+      "archivo": "Administracion_Windows_y_Linux.md",
+      "modulo": "m6",
+      "orden": 16,
+      "fecha": "2026-11-18",
+      "hash": "3b59d99a94cf",
+      "bytes": 6443,
+      "palabras": 1009,
+      "estado": "pendiente_revision",
+      "nivel": "3",
+      "tipo": "procedimiento",
+      "tags": [
+        "Infraestructura",
+        "sistemas-operativos"
+      ],
+      "aliases": [
+        "Administración de sistemas operativos",
+        "Windows CLI",
+        "Linux CLI",
+        "iproute2"
+      ],
+      "resumen": "La administración de Windows y Linux reúne las tareas de línea de comandos que un técnico necesita para elegir una edición de Windows, migrar perfiles, diagnosticar la red, gestionar…",
+      "enlaces": [
+        "administracion-de-discos",
+        "contenedores-docker",
+        "placas-base-y-chipsets",
+        "redes-y-direccionamiento-ip",
+        "seguridad-y-hardening-ti",
+        "servicios-de-red-y-acl"
+      ],
+      "md": "La **administración de Windows y Linux** reúne las tareas de línea de comandos que un técnico necesita para elegir una edición de Windows, migrar perfiles, diagnosticar la red, gestionar permisos y programar tareas en Linux. Es la capa operativa que convierte el hardware y el direccionamiento en un sistema administrable.\n\n## Bases y prerrequisitos\n- [[Placas_Base_y_Chipsets]] — firmware, arranque y virtualización habilitada desde BIOS/UEFI.\n- [[Administracion_de_Discos]] — particiones y sistemas de archivos sobre los que se instala el SO.\n\n## Ver también / Para profundizar\n- [[Redes_y_Direccionamiento_IP]] — IP, máscaras y puerta de enlace que se consultan con estos comandos.\n- [[Servicios_de_Red_y_ACL]] — puertos y servicios que se inspeccionan con `ss` o `netstat`.\n- [[Contenedores_Docker]] — administración del host y grupo `docker`.\n- [[Seguridad_y_Hardening_TI]] — SSH, UFW y endurecimiento de servidores.\n\n## Ediciones de Windows\n\n| Edición | Orientación | Rasgos que la distinguen |\n|---|---|---|\n| **Home** | Usuarios domésticos | Controles parentales e integración con la red Xbox |\n| **Pro** | Pequeñas y medianas empresas | Políticas de grupo, BitLocker, escritorio remoto y unión a dominios |\n| **Enterprise** | Grandes corporaciones | Administración remota centralizada, despliegue automatizado y seguridad avanzada |\n| **Education** | Ámbito académico | Basada en Enterprise, con licenciamiento por volumen |\n\nLa diferencia práctica está en las funciones de administración y seguridad, no en el núcleo del sistema: Home no permite unirse a un dominio ni usar BitLocker.\n\n## Migración de perfiles\n\n| Herramienta | Tipo | Uso |\n|---|---|---|\n| **USMT** (*User State Migration Tool*) | Línea de comandos (`scanstate`, `loadstate`) | Migración masiva y automatizada de cuentas, configuración y archivos |\n| **Windows Easy Transfer** | Interfaz gráfica | Transferencia de archivos personales desde Windows 7 y 8 |\n| **PCmover Express** | Interfaz gráfica | Transferencia asistida hacia Windows 10 |\n\n## `msconfig`: tipos de inicio\n\n`msconfig` (*Configuración del Sistema*) permite alternar entre **Inicio normal**, **Inicio con diagnóstico** (solo controladores y servicios básicos) e **Inicio selectivo**, además de gestionar servicios y opciones de arranque. Es la herramienta que la fuente describe sin nombrarla; el nombre se recupera aquí y queda marcado como tal.\n\n## Diagnóstico de red en Windows\n\n```powershell\n# Información completa: IP, máscara, gateway, DNS, MAC y DHCP\nipconfig /all\n\n# Liberar y renovar la concesión DHCP\nipconfig /release && ipconfig /renew\n\n# Consultar y vaciar la caché de resolución DNS\nipconfig /displaydns\nipconfig /flushdns\n\n# Conexiones activas, puertos en escucha y PID del proceso\nnetstat -ano\n```\n\n*Salida esperada (razonada, no ejecutada):* `ipconfig /all` muestra un bloque por adaptador con su dirección física y los servidores DNS; `netstat -ano` lista cada conexión con su estado y el PID que la posee. La fuente no reproduce la salida, así que no se transcribe.\n\n## Linux: de net-tools a iproute2\n\nEn distribuciones modernas como Ubuntu Server, `net-tools` (`ifconfig`, `netstat`, `route`, `arp`) está obsoleto y se sustituye por **iproute2**.\n\n| Tarea | net-tools (obsoleto) | iproute2 |\n|---|---|---|\n| Interfaces e IP | `ifconfig` | `ip addr show` (`ip a`) |\n| Tabla de rutas | `route -n` | `ip route show` (`ip r`) |\n| Sockets y puertos | `netstat -tuln` | `ss -tuln` |\n| Tabla de vecinos (ARP) | `arp -a` | `ip neigh` (`ip n`) |\n\n```bash\nip addr show                  # Direcciones y estado de las interfaces\nip route show                 # Tabla de enrutamiento del kernel\nss -tulpn                     # Sockets TCP/UDP, puertos y procesos\n```\n\n`ss -tulpn` es el sustituto directo de `netstat`: la `t` limita a TCP, la `u` a UDP, la `l` a sockets en escucha, la `p` muestra el proceso y la `n` evita resolver nombres.\n\n## Permisos, propiedad y grupos\n\nCada archivo tiene tres permisos —lectura (`r` = 4), escritura (`w` = 2) y ejecución (`x` = 1)— aplicados a propietario (`u`), grupo (`g`) y otros (`o`).\n\n```bash\n# Modo octal: dueño rwx, grupo r-x, otros ---\nchmod 750 script.sh\n\n# Modo simbólico: lectura para todos\nchmod a+r documento.txt\n\n# Propietario y grupo (requiere sudo)\nsudo chown usuario:grupo archivo.conf\nsudo chown -R www-data:www-data /var/www/html\n\n# Añadir a grupos secundarios sin quitar los actuales\nsudo usermod -aG sudo,docker alumno\n```\n\n- `chmod` cambia **permisos**; `chown` cambia **propietario y grupo**.\n- `usermod -aG` añade grupos sin eliminar los existentes; la `a` es la diferencia entre añadir y reemplazar.\n- Los permisos de grupo se leen al iniciar sesión: tras `usermod` hay que cerrar sesión y volver a entrar (o usar `newgrp`) para aplicarlos.\n\n## Tareas programadas con cron\n\n`cron` ejecuta tareas periódicas definidas en `crontab -e`, con cinco campos temporales:\n\n```text\nminuto (0-59) | hora (0-23) | día del mes (1-31) | mes (1-12) | día de la semana (0-7)\n```\n\n```bash\n# Respaldo diario a las 02:30\n30 2 * * * /usr/local/bin/backup.sh\n```\n\n`crontab -l` lista las tareas del usuario actual. El ejemplo ejecuta el script todos los días a las 02:30.\n\n## 32 frente a 64 bits\n\nUn sistema de 32 bits (x86) direcciona como máximo 4 GB de RAM; uno de 64 bits (x64) puede direccionar volúmenes mucho mayores y ejecutar aplicaciones de 64 bits. La arquitectura del procesador y la edición del SO deben coincidir.\n\n> ⚠️ **No confundir:** `chmod` (permisos) vs `chown` (propiedad). Cambiar el dueño no cambia los permisos, y viceversa.\n>\n> ⚠️ **No confundir:** `iproute2` (`ip`, `ss`) vs `net-tools` (`ifconfig`, `netstat`). En sistemas actuales, los primeros son los vigentes.\n>\n> ⚠️ **No confundir:** `usermod -aG` (añade grupos) vs `usermod -G` (reemplaza la lista de grupos). Omitir la `a` puede dejar al usuario fuera de sus grupos anteriores.\n>\n> ⚠️ **Punto de atención:** un sistema de 32 bits no aprovecha más de 4 GB de RAM aunque se instalen módulos mayores.\n\n## Idea clave\nWindows se elige por edición (Home, Pro, Enterprise, Education) y se administra con `ipconfig`, `netstat` y `msconfig`; Linux moderno usa iproute2 (`ip addr`, `ip route`, `ss`, `ip neigh`) en lugar de net-tools, controla el acceso con `chmod`/`chown`/`usermod -aG` y automatiza con cron. La arquitectura de 32 bits limita la RAM a 4 GB; la de 64 bits no.\n"
+    },
+    {
+      "slug": "virtualizacion-e-hipervisores",
+      "titulo": "Virtualización e hipervisores",
+      "archivo": "Virtualizacion_e_Hipervisores.md",
+      "modulo": "m7",
+      "orden": 17,
+      "fecha": "2026-11-18",
+      "hash": "70f5fb666389",
+      "bytes": 4744,
+      "palabras": 738,
+      "estado": "pendiente_revision",
+      "nivel": "3",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura",
+        "virtualizacion"
+      ],
+      "aliases": [
+        "Hipervisor",
+        "Virtualización",
+        "Tipo 1",
+        "Tipo 2",
+        "VT-x",
+        "AMD-V"
+      ],
+      "resumen": "La virtualización abstrae los recursos físicos de un servidor para ejecutar varias máquinas virtuales (VM) independientes sobre el mismo hardware. El componente que lo hace posible es el…",
+      "enlaces": [
+        "administracion-windows-y-linux",
+        "contenedores-docker",
+        "infraestructura-cloud-y-devops",
+        "orquestacion-kubernetes",
+        "placas-base-y-chipsets",
+        "procesadores-cpu",
+        "simulacion-y-emulacion-de-redes"
+      ],
+      "md": "La **virtualización** abstrae los recursos físicos de un servidor para ejecutar varias máquinas virtuales (VM) independientes sobre el mismo hardware. El componente que lo hace posible es el **hipervisor**, clasificado en Tipo 1 (sobre el hardware) y Tipo 2 (sobre un sistema operativo anfitrión). Es la base de los centros de datos, los laboratorios y la nube.\n\n## Bases y prerrequisitos\n- [[Procesadores_CPU]] — la virtualización necesita extensiones de virtualización de la CPU.\n- [[Placas_Base_y_Chipsets]] — VT-x/AMD-V se habilita en BIOS/UEFI.\n- [[Administracion_Windows_y_Linux]] — administración del sistema anfitrión.\n\n## Ver también / Para profundizar\n- [[Contenedores_Docker]] — alternativa ligera: comparte el kernel en lugar de virtualizar hardware.\n- [[Orquestacion_Kubernetes]] — orquestación de contenedores a escala.\n- [[Simulacion_y_Emulacion_Redes]] — GNS3 ejecuta imágenes reales sobre emulación.\n- [[Infraestructura_Cloud_y_DevOps]] — IaaS, PaaS y IaC.\n\n## Qué abstrae un hipervisor\n\nUn servidor físico tiene CPU, memoria, almacenamiento y red. El hipervisor reparte esos recursos entre varias VM, cada una con su propio sistema operativo invitado y su propio kernel. La VM cree tener hardware dedicado; el hipervisor traduce sus instrucciones al hardware real.\n\nVentajas: consolidación (menos servidores físicos), aislamiento, instantáneas, migración en caliente y laboratorios reproducibles. Coste: una capa de abstracción y la memoria/CPU reservadas a cada VM.\n\n## Hipervisores Tipo 1 y Tipo 2\n\n| Tipo | Dónde se ejecuta | Rendimiento | Ejemplos |\n|---|---|---|---|\n| **Tipo 1** (*bare-metal*) | Directamente sobre el hardware, sin SO intermedio | Máximo, menor latencia | VMware ESXi, Microsoft Hyper-V, Proxmox VE, KVM, Xen |\n| **Tipo 2** (*hosted*) | Como aplicación sobre un SO anfitrión (Windows, Linux, macOS) | Menor: las peticiones atraviesan el SO | Oracle VirtualBox, VMware Workstation/Player, Parallels |\n\n- **Tipo 1:** propio de centros de datos y *homelabs*; el hipervisor es el sistema operativo del servidor.\n- **Tipo 2:** propio de pruebas de escritorio y laboratorios locales; cómodo porque convive con las aplicaciones del anfitrión.\n\n> [!warning] Matiz de clasificación\n> La fuente clasifica Hyper-V y KVM como Tipo 1. En KVM, el soporte de virtualización es un módulo del kernel Linux, por lo que su encuadre como *bare-metal* puro se discute. Se conserva la clasificación de la fuente y se deja constancia de la matización.\n\n## Requisitos de hardware\n\n- **Intel VT-x** o **AMD-V**: extensiones de la CPU que permiten ejecutar instrucciones de la VM directamente en el procesador, sin emulación por software.\n- Deben estar **habilitadas en BIOS/UEFI**; si están desactivadas, el hipervisor no arranca las VM o funciona en modo muy lento.\n- **SLAT** (*Second Level Address Translation*): soporte de traducción de direcciones de segundo nivel que acelera el acceso de la VM a la memoria.\n- Memoria suficiente para el anfitrión y todas las VM; la RAM se reserva y no se comparte como en los contenedores.\n\n## VM frente a contenedor\n\n| Criterio | Máquina virtual | Contenedor |\n|---|---|---|\n| Qué virtualiza | Hardware completo | Procesos sobre el kernel del host |\n| Sistema operativo | Invitado completo, con su kernel | No incluye kernel propio |\n| Arranque | Decenas de segundos o minutos | Milisegundos |\n| Consumo | GB de RAM y disco | MB de RAM y disco |\n| Aislamiento | Fuerte, a nivel de hardware | A nivel de procesos (*namespaces* y *cgroups*) |\n| Uso típico | Distintos SO, aislamiento fuerte, legado | Microservicios y despliegues densos |\n\nEl contenedor no sustituye a la VM en todos los casos: si necesitas otro kernel u otro sistema operativo, la VM sigue siendo la respuesta. El desarrollo de los contenedores está en [[Contenedores_Docker]].\n\n> ⚠️ **No confundir:** hipervisor (virtualiza hardware) vs contenedor (aisla procesos compartiendo el kernel). Una VM incluye un SO completo; un contenedor, no.\n>\n> ⚠️ **No confundir:** emulación (GNS3 ejecuta la imagen real de otro hardware) vs virtualización (la VM usa el mismo tipo de CPU que el anfitrión).\n>\n> ⚠️ **Punto de atención:** sin VT-x/AMD-V habilitado en el firmware, el hipervisor puede negarse a crear VM de 64 bits o degradar el rendimiento.\n\n## Idea clave\nEl hipervisor abstrae el hardware y reparte CPU, RAM, disco y red entre VM aisladas; el Tipo 1 se instala sobre el hardware (ESXi, Hyper-V, Proxmox, KVM, Xen) y el Tipo 2 sobre un SO anfitrión (VirtualBox, VMware Workstation). Necesita VT-x/AMD-V habilitado en el firmware y SLAT, y se distingue del contenedor en que la VM virtualiza hardware completo mientras el contenedor comparte el kernel.\n"
+    },
+    {
+      "slug": "contenedores-docker",
+      "titulo": "Contenedores Docker",
+      "archivo": "Contenedores_Docker.md",
+      "modulo": "m7",
+      "orden": 18,
+      "fecha": "2026-11-18",
+      "hash": "07f0ef5f0d56",
+      "bytes": 5271,
+      "palabras": 776,
+      "estado": "pendiente_revision",
+      "nivel": "4",
+      "tipo": "procedimiento",
+      "tags": [
+        "Infraestructura",
+        "contenedores"
+      ],
+      "aliases": [
+        "Docker",
+        "Contenedor",
+        "Docker Compose",
+        "Namespaces",
+        "cgroups"
+      ],
+      "resumen": "La capa de escritura del contenedor es efímera : si se elimina, se pierde. Los datos que deben persistir van a un volumen o a un bind mount .",
+      "enlaces": [
+        "administracion-windows-y-linux",
+        "despliegue-nginx-docker",
+        "infraestructura-cloud-y-devops",
+        "orquestacion-kubernetes",
+        "virtualizacion-e-hipervisores"
+      ],
+      "md": "**Docker** es la plataforma de contenedores que empaqueta una aplicación y sus dependencias en una **imagen** reproducible y la ejecuta como **contenedor** aislado. A diferencia de una máquina virtual, el contenedor comparte el kernel del sistema anfitrión, por lo que arranca en milisegundos y consume menos recursos. Es la unidad de despliegue de los servicios modernos.\n\n## Bases y prerrequisitos\n- [[Virtualizacion_e_Hipervisores]] — contraste con la VM y noción de aislamiento.\n- [[Administracion_Windows_y_Linux]] — permisos, `usermod -aG` y administración del host.\n\n## Ver también / Para profundizar\n- [[Despliegue_Nginx_Docker]] — caso práctico completo con Nginx y volúmenes.\n- [[Orquestacion_Kubernetes]] — qué ocurre cuando hay cientos de contenedores.\n- [[Infraestructura_Cloud_y_DevOps]] — imágenes en registros y despliegue continuo.\n\n## Imagen, contenedor y volumen\n\n| Concepto | Qué es | Analogía |\n|---|---|---|\n| **Imagen** | Plantilla inmutable con el sistema de archivos y la configuración de la aplicación | Receta o molde |\n| **Contenedor** | Instancia en ejecución de una imagen, con una capa superior de lectura/escritura efímera | Plato servido a partir del molde |\n| **Volumen** | Almacenamiento persistente que sobrevive a la eliminación del contenedor | Disco externo |\n| **Bind mount** | Directorio del host montado dentro del contenedor | Carpeta compartida |\n\nLa capa de escritura del contenedor es **efímera**: si se elimina, se pierde. Los datos que deben persistir van a un **volumen** o a un **bind mount**.\n\n## Aislamiento: namespaces y cgroups\n\nDocker no virtualiza hardware; aísla procesos con dos mecanismos del kernel Linux:\n\n- **Namespaces**: separan lo que un proceso *ve* (PID, red, montajes, hostname, usuarios). Cada contenedor cree tener su propio sistema.\n- **cgroups** (*control groups*): limitan y contabilizan lo que un proceso *consume* (CPU, memoria, I/O). Impiden que un contenedor sature el host.\n\n> 🧠 **Idea clave:** *namespaces* = aislamiento de visibilidad; *cgroups* = límites de recursos. Juntos permiten ejecutar procesos aislados sin un kernel propio.\n\n## Instalación y grupo `docker`\n\nEl demonio `dockerd` corre como `root`. Para usar Docker sin `sudo`, se añade el usuario al grupo secundario:\n\n```bash\nsudo usermod -aG docker $USER\n```\n\nDespués hay que **cerrar sesión y volver a entrar** (o usar `newgrp docker`) para que el grupo se aplique. El cambio no afecta a la sesión ya abierta.\n\n## Ciclo de vida de un contenedor\n\n```bash\n# Levantar servicios en segundo plano (detached)\ndocker compose up -d\n\n# Ver contenedores activos y el mapeo de puertos\ndocker ps\n\n# Inspeccionar registros en tiempo real\ndocker logs -f servidor_web\n\n# Detener y eliminar contenedores y redes\ndocker compose down\n```\n\n- `up -d` crea y arranca los servicios sin bloquear la terminal.\n- `ps` muestra los contenedores en ejecución, su imagen, estado y puertos publicados.\n- `logs -f` sigue la salida del contenedor hasta que se interrumpe.\n- `down` detiene y elimina los contenedores y la red creada por Compose.\n\n*Salida esperada (razonada, no ejecutada):* `docker ps` lista una fila por contenedor con `CONTAINER ID`, `IMAGE`, `STATUS`, `PORTS` y `NAMES`. La fuente no reproduce la salida, así que no se transcribe.\n\n## Docker Compose\n\n**Docker Compose** define aplicaciones multicontenedor, redes internas y volúmenes en un archivo declarativo `docker-compose.yml`.\n\n```yaml\nservices:\n  web:\n    image: nginx:alpine\n    container_name: servidor_web\n    restart: unless-stopped\n    ports:\n      - \"8080:80\"\n    volumes:\n      - ./html:/usr/share/nginx/html:ro\n```\n\n- `image` elige la imagen base; `container_name` fija el nombre del contenedor.\n- `restart: unless-stopped` lo reinicia si falla o si el host se reinicia, salvo parada manual.\n- `\"8080:80\"` publica el puerto **8080 del host** hacia el **80 del contenedor** (`HOST:CONTENEDOR`).\n- `:ro` monta el volumen en solo lectura.\n\n**Docker Compose v1 frente a v2:** el binario clásico es `docker-compose` (v1); el plugin integrado es `docker compose` (v2, con espacio). El archivo es el mismo, pero cambian los comandos. En instalaciones actuales se usa `docker compose`.\n\nEl desarrollo aplicado a un servicio web está en [[Despliegue_Nginx_Docker]].\n\n> ⚠️ **No confundir:** imagen (plantilla inmutable) vs contenedor (instancia en ejecución). Se pueden lanzar varios contenedores de la misma imagen.\n>\n> ⚠️ **No confundir:** contenedor (comparte el kernel del host, arranque en milisegundos, MB de RAM) vs máquina virtual (hardware virtualizado, SO completo, GB de RAM). Ver [[Virtualizacion_e_Hipervisores]].\n>\n> ⚠️ **Punto de atención:** en `\"8080:80\"` el orden es host:contenedor. Invertirlo publica el servicio en un puerto inesperado.\n>\n> ⚠️ **Punto de atención:** la capa de escritura del contenedor es efímera; sin volumen, los datos desaparecen al recrearlo.\n\n## Idea clave\nDocker empaqueta la aplicación en una imagen inmutable y la ejecuta en contenedores aislados mediante namespaces y cgroups, compartiendo el kernel del host. Los datos persistentes van a volúmenes; Compose declara los servicios y sus puertos (`HOST:CONTENEDOR`), y el grupo `docker` evita `sudo` tras reiniciar la sesión.\n"
+    },
+    {
+      "slug": "orquestacion-kubernetes",
+      "titulo": "Orquestación Kubernetes",
+      "archivo": "Orquestacion_Kubernetes.md",
+      "modulo": "m7",
+      "orden": 19,
+      "fecha": "2026-11-18",
+      "hash": "c15bb7e7d249",
+      "bytes": 5321,
+      "palabras": 779,
+      "estado": "pendiente_revision",
+      "nivel": "4",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura",
+        "contenedores"
+      ],
+      "aliases": [
+        "Kubernetes",
+        "K8s",
+        "Helm",
+        "Pod",
+        "Deployment",
+        "Ingress"
+      ],
+      "resumen": "Docker resuelve ejecutar un contenedor en un host. Kubernetes resuelve preguntas que aparecen al escalar: ¿en qué nodo se ejecuta?, ¿cuántas réplicas hay?, ¿qué pasa si una cae?, ¿cómo se…",
+      "enlaces": [
+        "contenedores-docker",
+        "despliegue-nginx-docker",
+        "infraestructura-cloud-y-devops",
+        "mantenimiento-y-troubleshooting",
+        "virtualizacion-e-hipervisores"
+      ],
+      "md": "**Kubernetes (K8s)** es el orquestador de contenedores que automatiza el despliegue, el escalado y la recuperación de aplicaciones en un clúster de servidores. Cuando hay decenas o cientos de contenedores, gestionarlos a mano es inviable: Kubernetes mantiene el estado deseado, reparte la carga y sustituye los contenedores que fallan.\n\n## Bases y prerrequisitos\n- [[Contenedores_Docker]] — imagen, contenedor, volumen y ciclo de vida.\n- [[Virtualizacion_e_Hipervisores]] — el clúster corre sobre VM o servidores físicos.\n\n## Ver también / Para profundizar\n- [[Despliegue_Nginx_Docker]] — el servicio que Kubernetes puede escalar.\n- [[Infraestructura_Cloud_y_DevOps]] — clústeres gestionados y IaC.\n- [[Mantenimiento_y_Troubleshooting]] — diagnóstico de servicios.\n\n## Por qué hace falta un orquestador\n\nDocker resuelve ejecutar un contenedor en un host. Kubernetes resuelve preguntas que aparecen al escalar: ¿en qué nodo se ejecuta?, ¿cuántas réplicas hay?, ¿qué pasa si una cae?, ¿cómo se reparte el tráfico?, ¿cómo se actualiza sin cortar el servicio? El orquestador declara el **estado deseado** y los controladores lo reconcilian con el estado real.\n\n## Arquitectura del clúster\n\n### Control Plane (nodo maestro)\n\n| Componente | Función |\n|---|---|\n| **kube-apiserver** | Punto de entrada REST; valida y procesa las llamadas y comandos |\n| **etcd** | Almacén distribuido clave-valor con el estado persistente del clúster |\n| **kube-scheduler** | Asigna cada Pod nuevo al nodo adecuado según los recursos |\n| **kube-controller-manager** | Ejecuta los controladores que acercan el estado real al deseado |\n\n### Worker Nodes (nodos de trabajo)\n\n| Componente | Función |\n|---|---|\n| **kubelet** | Agente que asegura que los contenedores de los Pods asignados estén corriendo |\n| **kube-proxy** | Reglas de red y balanceo interno del nodo |\n| **Runtime** | Motor de contenedores, por ejemplo `containerd` |\n\n## Objetos fundamentales\n\n| Objeto | Qué representa | Para qué sirve |\n|---|---|---|\n| **Pod** | Unidad mínima ejecutable; uno o más contenedores que comparten IP y volúmenes | Ejecutar la carga |\n| **Deployment** | Controlador declarativo de réplicas y actualizaciones | Escalar, auto-reparar y hacer *rolling updates* |\n| **Service** | IP interna fija y nombre DNS | Balancear tráfico hacia un conjunto dinámico de Pods |\n| **Ingress** | Reglas HTTP/HTTPS de entrada | Exponer Services al exterior con rutas y TLS |\n\nUn **Pod** es efímero: no se repara, se sustituye. El **Deployment** garantiza que siempre haya el número de réplicas deseado; el **Service** da una identidad estable a un conjunto cambiante de Pods; el **Ingress** publica ese Service hacia fuera.\n\n## Manifiesto de Deployment\n\n```yaml\napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: webapp-deployment\nspec:\n  replicas: 3\n  selector:\n    matchLabels:\n      app: webapp\n  template:\n    metadata:\n      labels:\n        app: webapp\n    spec:\n      containers:\n      - name: nginx\n        image: nginx:1.27-alpine\n        ports:\n        - containerPort: 80\n```\n\n- `replicas: 3` declara tres Pods idénticos.\n- `selector.matchLabels` conecta el Deployment con los Pods que llevan `app: webapp`.\n- `template` describe el Pod: un contenedor `nginx` que escucha en el puerto 80.\n\n*Salida esperada (razonada, no ejecutada):* el clúster crea tres Pods con la etiqueta `app: webapp` y los mantiene vivos; si uno falla, el controlador crea otro. La fuente no incluye la salida de `kubectl`, así que no se transcribe.\n\n## Helm\n\n**Helm** es el gestor de paquetes de Kubernetes. Empaqueta los manifiestos YAML en **Charts** parametrizables mediante `values.yaml`, de modo que un despliegue complejo se instala con un comando.\n\n```bash\nhelm install mi-redis bitnami/redis\n```\n\nEl ejemplo instala el chart `redis` del repositorio `bitnami` con el nombre de release `mi-redis`. La fuente no detalla los valores del chart ni los comandos de actualización, así que quedan como **pendiente**.\n\n## Límites de esta nota\n\nLas fuentes explican la arquitectura y los objetos, pero **no conservan una secuencia completa de `kubectl`** (crear, escalar, exponer o depurar). Tampoco detallan manifiestos de Service o Ingress. Esos comandos quedan como pendiente de verificación para una próxima fuente.\n\n> ⚠️ **No confundir:** Pod (instancia efímera) vs Deployment (controlador que mantiene réplicas). No se escala un Pod directamente; se escala el Deployment.\n>\n> ⚠️ **No confundir:** Service (IP interna estable y balanceo) vs Ingress (enrutamiento HTTP/HTTPS externo). El Ingress necesita un controlador de ingress.\n>\n> ⚠️ **No confundir:** Kubernetes (orquestador) vs Docker (motor de contenedores). Kubernetes puede usar `containerd` u otro runtime; no es un sustituto de Docker.\n>\n> ⚠️ **Punto de atención:** un Pod sin Deployment no se recrea si falla; para producción se usan controladores.\n\n## Idea clave\nKubernetes mantiene el estado deseado de un clúster: el Control Plane (apiserver, etcd, scheduler, controller-manager) decide y los Worker Nodes (kubelet, kube-proxy, runtime) ejecutan. El Pod es la unidad mínima, el Deployment gestiona réplicas y actualizaciones, el Service da una IP estable y el Ingress publica HTTP/HTTPS; Helm empaqueta todo en Charts parametrizables.\n"
+    },
+    {
+      "slug": "infraestructura-cloud-y-devops",
+      "titulo": "Infraestructura cloud y DevOps",
+      "archivo": "Infraestructura_Cloud_y_DevOps.md",
+      "modulo": "m7",
+      "orden": 20,
+      "fecha": "2026-11-18",
+      "hash": "546f8558109c",
+      "bytes": 5227,
+      "palabras": 787,
+      "estado": "pendiente_revision",
+      "nivel": "4",
+      "tipo": "concepto",
+      "tags": [
+        "Infraestructura",
+        "cloud",
+        "devops"
+      ],
+      "aliases": [
+        "Cloud",
+        "IaaS",
+        "PaaS",
+        "SaaS",
+        "Terraform",
+        "Ansible",
+        "SDN",
+        "IaC"
+      ],
+      "resumen": "La infraestructura cloud y DevOps es el modelo en el que los recursos (servidores, red y almacenamiento) se aprovisionan como servicio y se definen mediante código versionable ( IaC ).…",
+      "enlaces": [
+        "contenedores-docker",
+        "despliegue-nginx-docker",
+        "mantenimiento-y-troubleshooting",
+        "orquestacion-kubernetes",
+        "seguridad-y-hardening-ti",
+        "virtualizacion-e-hipervisores"
+      ],
+      "md": "La **infraestructura cloud y DevOps** es el modelo en el que los recursos (servidores, red y almacenamiento) se aprovisionan como servicio y se definen mediante código versionable (**IaC**). Incluye los modelos IaaS/PaaS/SaaS, la responsabilidad compartida, las herramientas Terraform y Ansible y las redes definidas por software (**SDN**). Es la capa que convierte la infraestructura en algo reproducible y elástico.\n\n## Bases y prerrequisitos\n- [[Virtualizacion_e_Hipervisores]] — las VM son la unidad que ofrece IaaS.\n- [[Contenedores_Docker]] — PaaS y los despliegues modernos se apoyan en contenedores.\n- [[Orquestacion_Kubernetes]] — orquestación declarativa en el clúster.\n\n## Ver también / Para profundizar\n- [[Seguridad_y_Hardening_TI]] — responsabilidad del cliente y hardening en la nube.\n- [[Despliegue_Nginx_Docker]] — ejemplo concreto de servicio desplegado.\n- [[Mantenimiento_y_Troubleshooting]] — operación del servicio.\n\n## Modelos de servicio y responsabilidad compartida\n\n| Modelo | Gestiona el proveedor | Gestiona el cliente | Ejemplos |\n|---|---|---|---|\n| **IaaS** (*Infrastructure as a Service*) | Hardware, red física, almacenamiento e hipervisor | SO, parches, middleware, runtime, datos y aplicaciones | AWS EC2, Google Compute Engine, Azure VMs |\n| **PaaS** (*Platform as a Service*) | Todo lo anterior más el SO, el runtime y el escalado base | Solo el código de la aplicación y sus datos | Heroku, Google App Engine, Azure App Service |\n| **SaaS** (*Software as a Service*) | La pila completa hasta la aplicación final | Configuración de usuario, permisos y datos introducidos | Microsoft 365, Google Workspace, Salesforce |\n\nLa **responsabilidad compartida** no desaparece al subir de modelo: cambia de manos. En IaaS el cliente sigue parcheando el sistema operativo; en PaaS lo delega; en SaaS solo responde de sus datos y accesos.\n\n> 🧠 **Idea clave:** a más servicio (de IaaS a SaaS), menos administración para el cliente y menos control sobre la plataforma.\n\n## Infraestructura como Código (IaC)\n\nLa IaC sustituye la configuración manual por archivos de definición ejecutables y versionables en Git. Aporta reproducibilidad, auditoría y capacidad de repetir un entorno sin deriva de configuración.\n\n| Criterio | Terraform (HashiCorp) | Ansible (Red Hat) |\n|---|---|---|\n| Rol en DevOps | Aprovisionamiento del **Día 0**: crear infraestructura | Gestión de configuración del **Día 1 y 2**: instalar, parchear, desplegar |\n| Lenguaje | Declarativo, **HCL** | Procedimental por tareas, **YAML** (*playbooks*) |\n| Estado | **Con estado** (`terraform.tfstate`) | **Sin estado**: idempotencia sobre el host |\n| Actualización | Infraestructura **inmutable**: destruye y reemplaza | Infraestructura **mutable**: modifica in situ |\n| Conexión | APIs de los proveedores cloud (AWS, Azure, GCP) | SSH (Linux) o WinRM (Windows), sin agente |\n| Enfoque | Crear redes, VM, clústeres | Configurar el software dentro de esos recursos |\n\nEn producción suelen usarse juntos: Terraform crea la infraestructura y Ansible configura lo que corre dentro.\n\n```bash\nterraform init      # Descarga providers y prepara el directorio\nterraform plan      # Muestra qué se crea, modifica o destruye\nterraform apply     # Aplica los cambios aprobados\n```\n\n*Salida esperada (razonada, no ejecutada):* `terraform plan` lista los recursos que se añadirán, cambiarán o destruirán y pide confirmación antes de `apply`. La fuente no reproduce la salida, así que no se transcribe.\n\n## Redes definidas por software (SDN)\n\nUna red tradicional tiene el **plano de control** (decidir la ruta) y el **plano de datos** (reenviar el paquete) dentro del mismo dispositivo. **SDN** los separa: un controlador central calcula las rutas y programa los dispositivos, que solo reenvían.\n\n| Capa SDN | Función |\n|---|---|\n| **Aplicación** | Programas que piden políticas de red (seguridad, QoS, balanceo) |\n| **Control centralizado** | Controlador que traduce esas políticas en reglas para los dispositivos |\n| **Infraestructura física** | Switches y routers que ejecutan el reenvío |\n\nLa ventaja es programabilidad y visión global; el riesgo, que el controlador se convierta en un punto crítico que hay que redundar.\n\n> ⚠️ **No confundir:** IaaS (el cliente administra el SO) vs PaaS (el proveedor lo administra) vs SaaS (el proveedor administra todo).\n>\n> ⚠️ **No confundir:** Terraform (aprovisiona infraestructura, con estado) vs Ansible (configura servidores existentes, sin estado). Se complementan.\n>\n> ⚠️ **No confundir:** IaC (definir infraestructura en código) vs SDN (separar control y datos en la red). Son capas distintas.\n>\n> ⚠️ **Punto de atención:** `terraform.tfstate` contiene el mapeo de recursos reales; si se pierde o se edita a mano, el plan deja de ser fiable.\n\n## Idea clave\nLa nube reparte responsabilidades según el modelo (IaaS: el cliente administra el SO; PaaS: solo el código; SaaS: solo el uso). DevOps la hace reproducible con IaC: Terraform aprovisiona de forma declarativa con estado y Ansible configura de forma idempotente sin agente. SDN separa el plano de control del de datos para programar la red desde un controlador central.\n"
+    },
+    {
+      "slug": "despliegue-nginx-docker",
+      "titulo": "Despliegue Nginx y Docker",
+      "archivo": "Despliegue_Nginx_Docker.md",
+      "modulo": "m7",
+      "orden": 21,
+      "fecha": "2026-11-18",
+      "hash": "d031d9129fb7",
+      "bytes": 5137,
+      "palabras": 714,
+      "estado": "pendiente_revision",
+      "nivel": "3",
+      "tipo": "procedimiento",
+      "tags": [
+        "Infraestructura"
+      ],
+      "aliases": [
+        "Docker Compose",
+        "Nginx contenerizado",
+        "Despliegue web"
+      ],
+      "resumen": "Configura el servidor para escuchar en el puerto 80 interno y servir archivos estáticos desde /usr/share/nginx/html .",
+      "enlaces": [
+        "administracion-windows-y-linux",
+        "contenedores-docker",
+        "enrutamiento-estatico-cisco",
+        "redes-y-direccionamiento-ip"
+      ],
+      "md": "**Despliegue de servicios con Nginx y Docker Compose** es el procedimiento para contenerizar y servir una aplicación web (HTML estático) usando Nginx sobre Docker en Ubuntu 22.04. Permite aislar aplicaciones y desplegar infraestructura web rápidamente.\n\n## Bases y prerrequisitos\n- [[Redes_y_Direccionamiento_IP]] — conceptos de puertos y redes (el contenedor mapea puertos host:contenedor).\n- [[Administracion_Windows_y_Linux]] — permisos Linux, grupo `docker` y cron.\n- Conceptos básicos de Linux (CLI) *(sugerencia — nota pendiente)*\n\n## Ver también / Para profundizar\n- [[Enrutamiento_Estatico_Cisco]] — redes y conectividad.\n- [[Redes_y_Direccionamiento_IP]] — direccionamiento y puertos.\n- [[Administracion_Windows_y_Linux]] — `chmod`, `chown`, `usermod -aG` y `crontab`.\n- [[Contenedores_Docker]] — imagen, contenedor, volumen y `docker compose`.\n\n## Estructura del proyecto\n\n```\nnginx-html-docker/\n├── docker-compose.yml\n├── nginx/\n│   └── default.conf\n└── html/\n    └── index.html\n```\n\n## Paso 1 — Crear el archivo HTML (`html/index.html`)\n\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<title>Mi página Dockerizada</title>\n</head>\n<body>\n<h1>¡Hola desde Nginx en Docker FASC 2025!</h1>\n</body>\n</html>\n```\n\n## Paso 2 — Configuración de Nginx (`nginx/default.conf`)\n\n```nginx\nserver {\n    listen 80;\n    server_name localhost;\n    location / {\n        root /usr/share/nginx/html;\n        index index.html;\n    }\n}\n```\n\nConfigura el servidor para escuchar en el puerto 80 interno y servir archivos estáticos desde `/usr/share/nginx/html`.\n\n## Paso 3 — Definición del servicio (`docker-compose.yml`)\n\n```yaml\nversion: '3.8'\nservices:\n  nginx:\n    image: nginx:latest\n    restart: unless-stopped\n    ports:\n      - \"8080:80\"\n    volumes:\n      - ./html:/usr/share/nginx/html:ro\n      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro\n```\n\n- Vincula el puerto del host **8080** al puerto interno **80** del contenedor.\n- Monta volúmenes en modo solo lectura (`:ro`): HTML y configuración de Nginx.\n- `restart: unless-stopped` reinicia el contenedor si falla o si el host se reinicia, salvo que se haya detenido a propósito.\n\n## Paso 4 — Construcción y ejecución\n\n```bash\ncd nginx-html-docker\nsudo docker-compose up -d\n```\n\n- La opción `-d` (detached) ejecuta el contenedor en segundo plano.\n- **Docker Compose v1 frente a v2:** `docker-compose` es el binario clásico (v1); `docker compose` (con espacio) es el plugin integrado en Docker современo (v2). La sintaxis del archivo es la misma, pero los comandos cambian de forma. En instalaciones actuales se usa `docker compose up -d`.\n\n### Validación\n\n- Acceder en el navegador a `http://localhost:8080`.\n- Comprobar estado con `docker ps`.\n- Ver registros con `docker-compose logs nginx` o, en v2, `docker compose logs -f nginx` (la `-f` sigue la salida en tiempo real).\n\n### Limpieza\n\n```bash\nsudo docker-compose down\n```\n\nDetiene y elimina los contenedores creados.\n\n## Gestión de tareas programadas (Cron)\n\n- **Cron** (Linux/macOS): servicio en segundo plano que ejecuta tareas automáticas en fechas y horas específicas (mantenimiento, respaldos).\n- `crontab -e`: edita las tareas cron del usuario actual.\n- `crontab -l`: lista las tareas programadas configuradas.\n\nLa sintaxis de los cinco campos y un ejemplo de respaldo diario están en [[Administracion_Windows_y_Linux#Tareas programadas con cron]].\n\n## Estados de energía ACPI\n\n| Estado | Descripción |\n|---|---|\n| S0 | Equipo encendido, CPU en funcionamiento pleno |\n| S1 | CPU y RAM con energía; dispositivos no usados apagados |\n| S2 | CPU apagada; RAM actualizada |\n| S3 | Suspensión (\"Guardar en RAM\"), frecuencia de RAM reducida |\n| S4 | Hibernación (\"Guardar en disco\"), contenido de RAM escrito en disco |\n| S5 | Equipo completamente apagado |\n\n## Comandos Linux de permisos\n\n- `sudo chmod a+r /etc/apt/keyrings/docker.asc`: añade permiso de lectura a todos los usuarios sobre la clave GPG de Docker, permitiendo que `apt` la lea para autenticar paquetes.\n- `chmod`: cambia permisos de archivos (lectura/escritura/ejecución).\n- `chown`: cambia el propietario del archivo.\n\nEl modo octal, el simbólico y `usermod -aG` se explican en [[Administracion_Windows_y_Linux#Permisos, propiedad y grupos]].\n\n## Punto de atención\n- ⚠️ **Punto de atención:** tras añadir el usuario al grupo `docker` (`sudo usermod -aG docker ${USER}`), es necesario cerrar sesión (`logout`) e iniciarla de nuevo para que se actualicen los privilegios.\n- ⚠️ **No confundir:** Docker (contenedores) vs hipervisores Tipo 1/2 (máquinas virtuales completas). Docker comparte el kernel del host; las VMs virtualizan hardware completo.\n- ⚠️ **Punto de atención:** los volúmenes en modo `:ro` son de solo lectura; cambios en el host se reflejan en el contenedor, pero no al revés.\n\n## Idea clave\nDocker Compose permite desplegar Nginx contenerizado vinculando el puerto del host 8080 al puerto 80 del contenedor y montando volúmenes de HTML y configuración en modo solo lectura, con validación mediante `docker ps` y `curl localhost:8080`.\n"
+    },
+    {
+      "slug": "seguridad-y-hardening-ti",
+      "titulo": "Seguridad y hardening TI",
+      "archivo": "Seguridad_y_Hardening_TI.md",
+      "modulo": "m8",
+      "orden": 22,
+      "fecha": "2026-11-18",
+      "hash": "a6e96952725e",
+      "bytes": 6101,
+      "palabras": 888,
+      "estado": "pendiente_revision",
+      "nivel": "4",
+      "tipo": "procedimiento",
+      "tags": [
+        "Infraestructura",
+        "seguridad"
+      ],
+      "aliases": [
+        "Hardening",
+        "Bastionado",
+        "Ciberseguridad",
+        "Zero Trust",
+        "BitLocker",
+        "UFW",
+        "Fail2ban"
+      ],
+      "resumen": "La seguridad y el hardening de TI reúnen las prácticas para reducir la superficie de ataque de servidores y equipos: proteger la tríada CID , reconocer amenazas y aplicar cifrado,…",
+      "enlaces": [
+        "administracion-windows-y-linux",
+        "infraestructura-cloud-y-devops",
+        "mantenimiento-y-troubleshooting",
+        "placas-base-y-chipsets",
+        "redes-y-direccionamiento-ip",
+        "servicios-de-red-y-acl"
+      ],
+      "md": "La **seguridad y el hardening de TI** reúnen las prácticas para reducir la superficie de ataque de servidores y equipos: proteger la tríada **CID**, reconocer amenazas y aplicar cifrado, cortafuegos, autenticación por claves y mínimo privilegio. No es un producto que se instala, sino un conjunto de decisiones que se verifican.\n\n## Bases y prerrequisitos\n- [[Administracion_Windows_y_Linux]] — permisos, SSH, usuarios y grupos.\n- [[Redes_y_Direccionamiento_IP]] — puertos y direcciones que se filtran.\n- [[Servicios_de_Red_y_ACL]] — ACL y servicios expuestos.\n\n## Ver también / Para profundizar\n- [[Infraestructura_Cloud_y_DevOps]] — responsabilidad compartida en la nube.\n- [[Mantenimiento_y_Troubleshooting]] — diagnóstico tras un incidente.\n- [[Placas_Base_y_Chipsets]] — Secure Boot y firmware.\n\n## Tríada CID y superficie de ataque\n\nLa seguridad persigue tres propiedades:\n\n| Propiedad | Qué protege | Ejemplo de fallo |\n|---|---|---|\n| **Confidencialidad** | Que solo quien debe acceda a la información | Credenciales filtradas |\n| **Integridad** | Que los datos no se alteren sin detectarse | Modificación silenciosa de un binario |\n| **Disponibilidad** | Que el servicio siga operativo | Ataque DDoS o ransomware |\n\n**Hardening** (*bastionado*) es reducir la superficie de ataque: eliminar software y servicios innecesarios, aplicar parches, cerrar puertos, cifrar volúmenes y limitar privilegios. Cuanto menos expuesto, menos que defender.\n\n## Amenazas: malware, red e ingeniería social\n\n| Categoría | Ejemplos | Rasgo |\n|---|---|---|\n| **Malware** | Ransomware, troyanos, rootkits | Cifra datos, se oculta o abre acceso persistente |\n| **Ataques de red** | DDoS, Man-in-the-Middle (MitM), suplantación DNS | Interrumpen, interceptan o desvían el tráfico |\n| **Ingeniería social** | Phishing, spear phishing, baiting, pretexting, dumpster diving, impersonation | Manipulan a la persona, no a la máquina |\n\n- **Phishing** envía señuelos masivos y genéricos; **spear phishing** investiga antes a una víctima concreta para personalizar el ataque.\n- **Baiting** deja un señuelo físico (por ejemplo, una memoria USB infectada) apelando a la curiosidad.\n- **Pretexting** inventa un escenario verosímil (soporte técnico, auditoría) para obtener credenciales.\n- **Dumpster diving** busca documentos o contraseñas en la basura; **impersonation** suplanta una identidad física.\n- **MitM** intercepta o altera comunicaciones que las partes creen directas (ARP spoofing, Wi-Fi falso).\n\n> ⚠️ **No confundir:** phishing (masivo y genérico) vs spear phishing (personalizado tras investigar a la víctima).\n\n## Normativas y evidencia\n\n- **PII** (*Personally Identifiable Information*): datos que permiten identificar a una persona; su protección es obligatoria.\n- **PCI-DSS**: estándar de seguridad para la industria de tarjetas de pago.\n- **Informática forense**: preservación de la **cadena de custodia** para que la evidencia digital sea válida legalmente. Alterar el ordenador antes de documentarlo puede invalidarla.\n\n## Cifrado y arranque seguro en Windows\n\n- **TPM** (*Trusted Platform Module*): microcontrolador criptográfico de la placa base que guarda claves, certificados y medidas de integridad del hardware.\n- **Secure Boot** (UEFI): verifica la firma del gestor de arranque y del kernel antes de cargarlos; bloquea *bootkits* y rootkits de bajo nivel.\n- **BitLocker**: cifra volúmenes completos del sistema. Requiere TPM para validar que el hardware no se manipuló antes de liberar la clave.\n- **BitLocker To Go**: cifra unidades extraíbles (USB, discos externos) sin TPM; la clave se protege con contraseña o tarjeta inteligente para que la unidad funcione en otros equipos.\n\n## Bastionado de SSH en Linux\n\n```bash\n# 1. Cortafuegos UFW: denegar entrada, permitir salida y abrir solo lo necesario\nsudo ufw default deny incoming\nsudo ufw default allow outgoing\nsudo ufw allow 22/tcp\nsudo ufw enable\n\n# 2. Endurecer /etc/ssh/sshd_config\n# PermitRootLogin no\n# PasswordAuthentication no\n\n# 3. Fail2ban: bloquear IP tras intentos fallidos\nsudo apt install fail2ban -y\n```\n\n- `PermitRootLogin no` impide el acceso directo como `root`; se entra con un usuario y se escala con `sudo`.\n- `PasswordAuthentication no` obliga a usar llaves criptográficas (Ed25519 o RSA 4096), no contraseñas.\n- **Fail2ban** lee `/var/log/auth.log` y aplica reglas dinámicas en UFW/iptables a las IP que superan el umbral de intentos fallidos.\n\n*Salida esperada (razonada, no ejecutada):* tras `ufw enable`, el cortafuegos queda activo y solo el puerto 22 acepta conexiones entrantes; `fail2ban` añade reglas temporales para las IP bloqueadas. La fuente no reproduce la salida.\n\n## Zero Trust y defensa en profundidad\n\n**Zero Trust** parte de no confiar implícitamente en nada por estar dentro de la red local: cada identidad, dispositivo y sesión se verifica. Se combina con **mínimo privilegio** (solo los permisos necesarios) y **defensa en profundidad** (varias capas: segmentación, ACL, cifrado, parches, monitorización).\n\n- Segmentar la red con VLAN y filtrar con ACL reduce el movimiento lateral.\n- Cifrar en reposo (BitLocker, LUKS) protege el dato si se roba el disco.\n- Deshabilitar servicios y puertos innecesarios reduce la superficie de ataque.\n\n> ⚠️ **No confundir:** IDS (pasivo, analiza copias y alerta) vs IPS (en línea, bloquea y descarta paquetes en tiempo real).\n>\n> ⚠️ **No confundir:** BitLocker (volúmenes fijos con TPM) vs BitLocker To Go (extraíbles con contraseña, sin TPM).\n>\n> ⚠️ **Punto de atención:** desactivar la autenticación por contraseña sin haber instalado antes la clave pública deja el servidor inaccesible por SSH.\n\n## Idea clave\nLa seguridad protege confidencialidad, integridad y disponibilidad reduciendo la superficie de ataque: reconocer malware, ataques de red e ingeniería social; cifrar con BitLocker/TPM y Secure Boot; bastionar SSH con claves, UFW y Fail2ban; y aplicar Zero Trust con mínimo privilegio. El IDS alerta y el IPS bloquea; la evidencia forense exige cadena de custodia.\n"
+    },
+    {
+      "slug": "mantenimiento-y-troubleshooting",
+      "titulo": "Mantenimiento y troubleshooting",
+      "archivo": "Mantenimiento_y_Troubleshooting.md",
+      "modulo": "m8",
+      "orden": 23,
+      "fecha": "2026-11-18",
+      "hash": "1a7ee15abac0",
+      "bytes": 5713,
+      "palabras": 884,
+      "estado": "pendiente_revision",
+      "nivel": "3",
+      "tipo": "procedimiento",
+      "tags": [
+        "Infraestructura",
+        "operacion"
+      ],
+      "aliases": [
+        "Mantenimiento preventivo",
+        "Troubleshooting",
+        "Resolución de problemas",
+        "ITIL",
+        "S.M.A.R.T."
+      ],
+      "resumen": "El mantenimiento y la resolución de problemas son las rutinas con las que se prolonga la vida de los equipos y se restaura el servicio cuando falla. Combina mantenimiento preventivo, un…",
+      "enlaces": [
+        "administracion-windows-y-linux",
+        "conmutacion-vlan-y-stp",
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "modelos-de-red-osi-y-tcpip",
+        "redes-y-direccionamiento-ip",
+        "seguridad-y-hardening-ti",
+        "servicios-de-red-y-acl"
+      ],
+      "md": "El **mantenimiento y la resolución de problemas** son las rutinas con las que se prolonga la vida de los equipos y se restaura el servicio cuando falla. Combina mantenimiento preventivo, un método de diagnóstico en seis pasos, el marco **ITIL v4** y comandos de verificación de red. Es la parte operativa de la infraestructura: lo que se hace antes y después del incidente.\n\n## Bases y prerrequisitos\n- [[Modelos_de_Red_OSI_y_TCPIP]] — diagnóstico capa por capa.\n- [[Redes_y_Direccionamiento_IP]] — IP, máscara y puerta de enlace que se comprueban.\n- [[Administracion_Windows_y_Linux]] — CLI del sistema y permisos.\n\n## Ver también / Para profundizar\n- [[Seguridad_y_Hardening_TI]] — respuesta ante incidentes de seguridad.\n- [[Servicios_de_Red_y_ACL]] — servicios y filtros que pueden causar fallos.\n- [[Enrutamiento_Dinamico_y_Alta_Disponibilidad]] — `show ip route` y redundancia.\n- [[Conmutacion_VLAN_y_STP]] — `show mac address-table` y bucles de capa 2.\n\n## Mantenimiento preventivo\n\nEl mantenimiento preventivo es un conjunto de rutinas periódicas de inspección física y optimización lógica para evitar interrupciones no programadas.\n\n- Limpieza interna del polvo con aire comprimido.\n- Verificación de temperaturas de operación.\n- Inspección de cables de datos y de alimentación.\n- Monitorización del estado del disco mediante **S.M.A.R.T.** (*Self-Monitoring, Analysis and Reporting Technology*).\n- Actualización sistemática de parches de seguridad del sistema operativo.\n\nEl objetivo no es \"arreglar\" sino anticipar: un disco con sectores reasignados o una temperatura alta avisan antes de fallar.\n\n## Método de resolución en seis pasos\n\n| Paso | Acción | Qué se hace |\n|---|---|---|\n| 1 | **Identificar el problema** | Preguntas abiertas y cerradas al usuario, revisar visores de eventos y observar síntomas físicos |\n| 2 | **Establecer una teoría de causa probable** | Formular hipótesis, empezando por las causas más simples y comunes |\n| 3 | **Probar la teoría** | Diagnosticar con pruebas dirigidas; si no se confirma, volver al paso 2 |\n| 4 | **Plan de acción e implementación** | Diseñar la reparación minimizando el impacto y ejecutarla |\n| 5 | **Verificar la funcionalidad total** | Confirmar que todo funciona y aplicar medidas preventivas |\n| 6 | **Documentar** | Registrar el incidente y la solución en el sistema de tickets |\n\nEl ciclo no es lineal: si la teoría falla en el paso 3, se vuelve al 2. Documentar en el paso 6 alimenta la base de conocimiento y acelera los incidentes futuros.\n\n> 🧠 **Idea clave:** primero se entiende y se comprueba la causa; después se repara. Saltar a la solución sin teoría convierte el incidente en una sucesión de pruebas a ciegas.\n\n## ITIL v4 y el Service Desk\n\n**ITIL v4** es un marco de gestión de servicios de TI. El proceso de seis pasos se alinea con la **gestión de incidentes** y el **Service Desk**: el usuario reporta, se clasifica la incidencia, se restaura el servicio y se documenta.\n\n- **Incidente:** interrupción no planificada o reducción de la calidad del servicio. El objetivo es restaurar cuanto antes.\n- **Problema:** causa raíz de uno o varios incidentes. Se investiga después de restablecer el servicio.\n- **Base de conocimiento:** registro de hallazgos y soluciones; el paso 6 la alimenta.\n- **Ticket:** unidad de registro del incidente, con historial y responsables.\n\nITIL no impone herramientas: ordena el flujo y asigna responsabilidades.\n\n## Diagnóstico por capas y comandos\n\nEl modelo OSI guía el orden: capa 1 (cable, LED), capa 2 (MAC/VLAN), capa 3 (IP/gateway), capas 4-7 (puertos y servicios). Empezar abajo evita perseguir un problema de aplicación cuando el enlace está caído.\n\n```bash\nping 192.168.1.1          # Alcanzabilidad y latencia (ICMP)\ntraceroute example.com    # Saltos hasta el destino\n```\n\n```text\nshow mac address-table    # MAC aprendidas por puerto y VLAN (capa 2)\nshow ip route             # Tabla de enrutamiento (capa 3)\n```\n\n- `ping` usa ICMP *Echo Request/Reply*: si falla, el problema puede ser de capa 1-3 o un filtro.\n- `traceroute` muestra por dónde pasa el tráfico y dónde se pierde.\n- `show mac address-table` revela en qué puerto se ha aprendido una MAC; útil para localizar un equipo o un bucle.\n- `show ip route` confirma si el router conoce la red de destino y por qué interfaz sale.\n\nLos vecinos directos se descubren con **CDP** (propietario de Cisco) o **LLDP** (estándar); permiten reconstruir la topología real antes de tocar configuraciones.\n\n*Salida esperada (razonada, no ejecutada):* la tabla MAC lista una entrada por MAC con puerto y VLAN; la tabla de rutas muestra redes conectadas y aprendidas con su siguiente salto. La fuente no reproduce la salida, así que no se transcribe.\n\n> ⚠️ **No confundir:** incidente (restaurar el servicio ya) vs problema (encontrar la causa raíz). ITIL separa ambos para no mezclar urgencia con investigación.\n>\n> ⚠️ **No confundir:** mantenimiento preventivo (evita la falla) vs correctivo (repara después). El método de seis pasos es correctivo; S.M.A.R.T. y la limpieza son preventivos.\n>\n> ⚠️ **Punto de atención:** documentar después de reparar, no antes, pierde detalles que luego no se recuerdan; conviene anotar síntomas y pruebas durante el proceso.\n\n## Idea clave\nEl mantenimiento preventivo (limpieza, temperaturas, cables, S.M.A.R.T. y parches) evita fallos; cuando ocurren, el método de seis pasos —identificar, teorizar, probar, planificar, verificar y documentar— ordena la reparación y se alinea con ITIL v4. El diagnóstico baja por las capas OSI y se apoya en `ping`, `traceroute`, `show mac address-table` y `show ip route`.\n"
+    }
+  ],
+  "indice": {
+    "guia": "guia",
+    "00 guia del curso": "guia",
+    "guia del curso": "guia",
+    "seguridad electrica y esd": "seguridad-electrica-y-esd",
+    "esd": "seguridad-electrica-y-esd",
+    "descarga electrostatica": "seguridad-electrica-y-esd",
+    "fuentes de alimentacion": "fuentes-de-alimentacion",
+    "psu": "fuentes-de-alimentacion",
+    "fuente de poder": "fuentes-de-alimentacion",
+    "power supply unit": "fuentes-de-alimentacion",
+    "placas base y chipsets": "placas-base-y-chipsets",
+    "motherboard": "placas-base-y-chipsets",
+    "tarjeta madre": "placas-base-y-chipsets",
+    "chipset": "placas-base-y-chipsets",
+    "procesadores cpu": "procesadores-cpu",
+    "cpu": "procesadores-cpu",
+    "procesador": "procesadores-cpu",
+    "unidad central de procesamiento": "procesadores-cpu",
+    "memoria ram y ecc": "memoria-ram-y-ecc",
+    "ram": "memoria-ram-y-ecc",
+    "memoria principal": "memoria-ram-y-ecc",
+    "ecc": "memoria-ram-y-ecc",
+    "conceptos de almacenamiento": "conceptos-de-almacenamiento",
+    "almacenamiento": "conceptos-de-almacenamiento",
+    "raid": "conceptos-de-almacenamiento",
+    "administracion de discos": "administracion-de-discos",
+    "particiones de disco": "administracion-de-discos",
+    "conversion fat32 a ntfs": "administracion-de-discos",
+    "mbr": "administracion-de-discos",
+    "gpt": "administracion-de-discos",
+    "modelos de red osi y tcpip": "modelos-de-red-osi-y-tcpip",
+    "modelos de red osi y tcp ip": "modelos-de-red-osi-y-tcpip",
+    "modelo osi": "modelos-de-red-osi-y-tcpip",
+    "osi": "modelos-de-red-osi-y-tcpip",
+    "tcp ip": "modelos-de-red-osi-y-tcpip",
+    "capas de red": "modelos-de-red-osi-y-tcpip",
+    "redes y direccionamiento ip": "redes-y-direccionamiento-ip",
+    "ipv4": "redes-y-direccionamiento-ip",
+    "direccionamiento ip": "redes-y-direccionamiento-ip",
+    "subredes": "redes-y-direccionamiento-ip",
+    "conmutacion vlan y stp": "conmutacion-vlan-y-stp",
+    "vlan": "conmutacion-vlan-y-stp",
+    "stp": "conmutacion-vlan-y-stp",
+    "spanning tree": "conmutacion-vlan-y-stp",
+    "etherchannel": "conmutacion-vlan-y-stp",
+    "802 1q": "conmutacion-vlan-y-stp",
+    "enrutamiento estatico cisco": "enrutamiento-estatico-cisco",
+    "cisco ios": "enrutamiento-estatico-cisco",
+    "rutas estaticas": "enrutamiento-estatico-cisco",
+    "enrutamiento estatico": "enrutamiento-estatico-cisco",
+    "enrutamiento dinamico y alta disponibilidad": "enrutamiento-dinamico-y-alta-disponibilidad",
+    "ospf": "enrutamiento-dinamico-y-alta-disponibilidad",
+    "eigrp": "enrutamiento-dinamico-y-alta-disponibilidad",
+    "hsrp": "enrutamiento-dinamico-y-alta-disponibilidad",
+    "vrrp": "enrutamiento-dinamico-y-alta-disponibilidad",
+    "fhrp": "enrutamiento-dinamico-y-alta-disponibilidad",
+    "enrutamiento dinamico": "enrutamiento-dinamico-y-alta-disponibilidad",
+    "servicios de red y acl": "servicios-de-red-y-acl",
+    "nat": "servicios-de-red-y-acl",
+    "pat": "servicios-de-red-y-acl",
+    "acl": "servicios-de-red-y-acl",
+    "dhcp": "servicios-de-red-y-acl",
+    "dns": "servicios-de-red-y-acl",
+    "servicios de red": "servicios-de-red-y-acl",
+    "simulacion y emulacion de redes": "simulacion-y-emulacion-de-redes",
+    "simulacion y emulacion redes": "simulacion-y-emulacion-de-redes",
+    "packet tracer": "simulacion-y-emulacion-de-redes",
+    "gns3": "simulacion-y-emulacion-de-redes",
+    "simulador": "simulacion-y-emulacion-de-redes",
+    "emulador": "simulacion-y-emulacion-de-redes",
+    "idle pc": "simulacion-y-emulacion-de-redes",
+    "administracion windows y linux": "administracion-windows-y-linux",
+    "administracion de sistemas operativos": "administracion-windows-y-linux",
+    "windows cli": "administracion-windows-y-linux",
+    "linux cli": "administracion-windows-y-linux",
+    "iproute2": "administracion-windows-y-linux",
+    "virtualizacion e hipervisores": "virtualizacion-e-hipervisores",
+    "hipervisor": "virtualizacion-e-hipervisores",
+    "virtualizacion": "virtualizacion-e-hipervisores",
+    "tipo 1": "virtualizacion-e-hipervisores",
+    "tipo 2": "virtualizacion-e-hipervisores",
+    "vt x": "virtualizacion-e-hipervisores",
+    "amd v": "virtualizacion-e-hipervisores",
+    "contenedores docker": "contenedores-docker",
+    "docker": "contenedores-docker",
+    "contenedor": "contenedores-docker",
+    "docker compose": "contenedores-docker",
+    "namespaces": "contenedores-docker",
+    "cgroups": "contenedores-docker",
+    "orquestacion kubernetes": "orquestacion-kubernetes",
+    "kubernetes": "orquestacion-kubernetes",
+    "k8s": "orquestacion-kubernetes",
+    "helm": "orquestacion-kubernetes",
+    "pod": "orquestacion-kubernetes",
+    "deployment": "orquestacion-kubernetes",
+    "ingress": "orquestacion-kubernetes",
+    "infraestructura cloud y devops": "infraestructura-cloud-y-devops",
+    "cloud": "infraestructura-cloud-y-devops",
+    "iaas": "infraestructura-cloud-y-devops",
+    "paas": "infraestructura-cloud-y-devops",
+    "saas": "infraestructura-cloud-y-devops",
+    "terraform": "infraestructura-cloud-y-devops",
+    "ansible": "infraestructura-cloud-y-devops",
+    "sdn": "infraestructura-cloud-y-devops",
+    "iac": "infraestructura-cloud-y-devops",
+    "despliegue nginx docker": "despliegue-nginx-docker",
+    "despliegue nginx y docker": "despliegue-nginx-docker",
+    "nginx contenerizado": "despliegue-nginx-docker",
+    "despliegue web": "despliegue-nginx-docker",
+    "seguridad y hardening ti": "seguridad-y-hardening-ti",
+    "hardening": "seguridad-y-hardening-ti",
+    "bastionado": "seguridad-y-hardening-ti",
+    "ciberseguridad": "seguridad-y-hardening-ti",
+    "zero trust": "seguridad-y-hardening-ti",
+    "bitlocker": "seguridad-y-hardening-ti",
+    "ufw": "seguridad-y-hardening-ti",
+    "fail2ban": "seguridad-y-hardening-ti",
+    "mantenimiento y troubleshooting": "mantenimiento-y-troubleshooting",
+    "mantenimiento preventivo": "mantenimiento-y-troubleshooting",
+    "troubleshooting": "mantenimiento-y-troubleshooting",
+    "resolucion de problemas": "mantenimiento-y-troubleshooting",
+    "itil": "mantenimiento-y-troubleshooting",
+    "s m a r t": "mantenimiento-y-troubleshooting"
+  },
+  "backlinks": {
+    "administracion-windows-y-linux": [
+      "virtualizacion-e-hipervisores",
+      "contenedores-docker",
+      "despliegue-nginx-docker",
+      "seguridad-y-hardening-ti",
+      "mantenimiento-y-troubleshooting"
+    ],
+    "orquestacion-kubernetes": [
+      "virtualizacion-e-hipervisores",
+      "contenedores-docker",
+      "infraestructura-cloud-y-devops"
+    ],
+    "enrutamiento-dinamico-y-alta-disponibilidad": [
+      "redes-y-direccionamiento-ip",
+      "conmutacion-vlan-y-stp",
+      "enrutamiento-estatico-cisco",
+      "servicios-de-red-y-acl",
+      "simulacion-y-emulacion-de-redes",
+      "mantenimiento-y-troubleshooting"
+    ],
+    "redes-y-direccionamiento-ip": [
+      "modelos-de-red-osi-y-tcpip",
+      "conmutacion-vlan-y-stp",
+      "enrutamiento-estatico-cisco",
+      "enrutamiento-dinamico-y-alta-disponibilidad",
+      "servicios-de-red-y-acl",
+      "administracion-windows-y-linux",
+      "despliegue-nginx-docker",
+      "seguridad-y-hardening-ti",
+      "mantenimiento-y-troubleshooting"
+    ],
+    "seguridad-electrica-y-esd": [
+      "fuentes-de-alimentacion"
+    ],
+    "conmutacion-vlan-y-stp": [
+      "modelos-de-red-osi-y-tcpip",
+      "redes-y-direccionamiento-ip",
+      "enrutamiento-dinamico-y-alta-disponibilidad",
+      "servicios-de-red-y-acl",
+      "simulacion-y-emulacion-de-redes",
+      "mantenimiento-y-troubleshooting"
+    ],
+    "fuentes-de-alimentacion": [
+      "guia",
+      "seguridad-electrica-y-esd",
+      "placas-base-y-chipsets",
+      "procesadores-cpu"
+    ],
+    "guia": [],
+    "despliegue-nginx-docker": [
+      "redes-y-direccionamiento-ip",
+      "contenedores-docker",
+      "orquestacion-kubernetes",
+      "infraestructura-cloud-y-devops"
+    ],
+    "contenedores-docker": [
+      "administracion-windows-y-linux",
+      "virtualizacion-e-hipervisores",
+      "orquestacion-kubernetes",
+      "infraestructura-cloud-y-devops",
+      "despliegue-nginx-docker"
+    ],
+    "mantenimiento-y-troubleshooting": [
+      "guia",
+      "modelos-de-red-osi-y-tcpip",
+      "enrutamiento-dinamico-y-alta-disponibilidad",
+      "simulacion-y-emulacion-de-redes",
+      "orquestacion-kubernetes",
+      "infraestructura-cloud-y-devops",
+      "seguridad-y-hardening-ti"
+    ],
+    "modelos-de-red-osi-y-tcpip": [
+      "guia",
+      "redes-y-direccionamiento-ip",
+      "conmutacion-vlan-y-stp",
+      "servicios-de-red-y-acl",
+      "mantenimiento-y-troubleshooting"
+    ],
+    "seguridad-y-hardening-ti": [
+      "servicios-de-red-y-acl",
+      "administracion-windows-y-linux",
+      "infraestructura-cloud-y-devops",
+      "mantenimiento-y-troubleshooting"
+    ],
+    "enrutamiento-estatico-cisco": [
+      "redes-y-direccionamiento-ip",
+      "enrutamiento-dinamico-y-alta-disponibilidad",
+      "simulacion-y-emulacion-de-redes",
+      "despliegue-nginx-docker"
+    ],
+    "procesadores-cpu": [
+      "fuentes-de-alimentacion",
+      "placas-base-y-chipsets",
+      "memoria-ram-y-ecc",
+      "virtualizacion-e-hipervisores"
+    ],
+    "placas-base-y-chipsets": [
+      "fuentes-de-alimentacion",
+      "procesadores-cpu",
+      "memoria-ram-y-ecc",
+      "conceptos-de-almacenamiento",
+      "administracion-de-discos",
+      "administracion-windows-y-linux",
+      "virtualizacion-e-hipervisores",
+      "seguridad-y-hardening-ti"
+    ],
+    "virtualizacion-e-hipervisores": [
+      "simulacion-y-emulacion-de-redes",
+      "contenedores-docker",
+      "orquestacion-kubernetes",
+      "infraestructura-cloud-y-devops"
+    ],
+    "conceptos-de-almacenamiento": [
+      "administracion-de-discos"
+    ],
+    "simulacion-y-emulacion-de-redes": [
+      "guia",
+      "conmutacion-vlan-y-stp",
+      "virtualizacion-e-hipervisores"
+    ],
+    "administracion-de-discos": [
+      "placas-base-y-chipsets",
+      "conceptos-de-almacenamiento",
+      "administracion-windows-y-linux"
+    ],
+    "memoria-ram-y-ecc": [
+      "placas-base-y-chipsets",
+      "procesadores-cpu"
+    ],
+    "infraestructura-cloud-y-devops": [
+      "virtualizacion-e-hipervisores",
+      "contenedores-docker",
+      "orquestacion-kubernetes",
+      "seguridad-y-hardening-ti"
+    ],
+    "servicios-de-red-y-acl": [
+      "modelos-de-red-osi-y-tcpip",
+      "redes-y-direccionamiento-ip",
+      "conmutacion-vlan-y-stp",
+      "enrutamiento-estatico-cisco",
+      "enrutamiento-dinamico-y-alta-disponibilidad",
+      "administracion-windows-y-linux",
+      "seguridad-y-hardening-ti",
+      "mantenimiento-y-troubleshooting"
+    ]
+  },
+  "estadisticas": {
+    "lecciones": 23,
+    "modulos": 9,
+    "palabras": 17602,
+    "enlaces": 100,
+    "bytes": 113876
+  }
+}
