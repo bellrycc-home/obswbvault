@@ -1,0 +1,296 @@
+{
+  "id": "infra-s2",
+  "titulo": "Infraestructura",
+  "subtitulo": "Curso S2 · Web",
+  "version": 1,
+  "fuente": {
+    "vault": "Notas/Infraestructura",
+    "notas": 22,
+    "estado": "pendiente_revision"
+  },
+  "modulos": [
+    {
+      "id": "inicio",
+      "titulo": "Inicio",
+      "descripcion": "Punto de entrada, ruta y plan del curso"
+    },
+    {
+      "id": "m1",
+      "titulo": "1 · Seguridad eléctrica y manipulación",
+      "descripcion": "Prerrequisito absoluto: proteger el equipo y al técnico"
+    },
+    {
+      "id": "m2",
+      "titulo": "2 · Hardware fundamental",
+      "descripcion": "Alimentación, placa base, CPU y memoria"
+    },
+    {
+      "id": "m3",
+      "titulo": "3 · Almacenamiento",
+      "descripcion": "Discos, particiones, RAID y sistemas de archivos"
+    },
+    {
+      "id": "m4",
+      "titulo": "4 · Fundamentos de red",
+      "descripcion": "Capas, protocolos y direccionamiento"
+    },
+    {
+      "id": "m5",
+      "titulo": "5 · Conmutación, enrutamiento y servicios",
+      "descripcion": "VLAN, rutas, ACL, servicios y práctica en simuladores"
+    },
+    {
+      "id": "m6",
+      "titulo": "6 · Sistemas operativos",
+      "descripcion": "Windows y Linux desde la línea de comandos"
+    },
+    {
+      "id": "m7",
+      "titulo": "7 · Virtualización, contenedores y nube",
+      "descripcion": "Hipervisores, Docker, Kubernetes, cloud y despliegue"
+    },
+    {
+      "id": "m8",
+      "titulo": "8 · Seguridad y operación",
+      "descripcion": "Endurecimiento, mantenimiento y diagnóstico"
+    }
+  ],
+  "lecciones": [
+    {
+      "slug": "guia",
+      "archivo": "00_Guia_del_curso.md",
+      "modulo": "inicio",
+      "titulo": "Guía del curso"
+    },
+    {
+      "slug": "seguridad-electrica-y-esd",
+      "archivo": "Seguridad_Electrica_y_ESD.md",
+      "modulo": "m1",
+      "titulo": "Seguridad eléctrica y ESD"
+    },
+    {
+      "slug": "fuentes-de-alimentacion",
+      "archivo": "Fuentes_de_Alimentacion.md",
+      "modulo": "m2",
+      "titulo": "Fuentes de alimentación"
+    },
+    {
+      "slug": "placas-base-y-chipsets",
+      "archivo": "Placas_Base_y_Chipsets.md",
+      "modulo": "m2",
+      "titulo": "Placas base y chipsets"
+    },
+    {
+      "slug": "procesadores-cpu",
+      "archivo": "Procesadores_CPU.md",
+      "modulo": "m2",
+      "titulo": "Procesadores (CPU)"
+    },
+    {
+      "slug": "memoria-ram-y-ecc",
+      "archivo": "Memoria_RAM_y_ECC.md",
+      "modulo": "m2",
+      "titulo": "Memoria RAM y ECC"
+    },
+    {
+      "slug": "conceptos-de-almacenamiento",
+      "archivo": "Conceptos_de_Almacenamiento.md",
+      "modulo": "m3",
+      "titulo": "Conceptos de almacenamiento"
+    },
+    {
+      "slug": "administracion-de-discos",
+      "archivo": "Administracion_de_Discos.md",
+      "modulo": "m3",
+      "titulo": "Administración de discos"
+    },
+    {
+      "slug": "modelos-de-red-osi-y-tcpip",
+      "archivo": "Modelos_de_Red_OSI_y_TCPIP.md",
+      "modulo": "m4",
+      "titulo": "Modelos de red OSI y TCP/IP"
+    },
+    {
+      "slug": "redes-y-direccionamiento-ip",
+      "archivo": "Redes_y_Direccionamiento_IP.md",
+      "modulo": "m4",
+      "titulo": "Redes y direccionamiento IP"
+    },
+    {
+      "slug": "conmutacion-vlan-y-stp",
+      "archivo": "Conmutacion_VLAN_y_STP.md",
+      "modulo": "m5",
+      "titulo": "Conmutación, VLAN y STP"
+    },
+    {
+      "slug": "enrutamiento-estatico-cisco",
+      "archivo": "Enrutamiento_Estatico_Cisco.md",
+      "modulo": "m5",
+      "titulo": "Enrutamiento estático Cisco"
+    },
+    {
+      "slug": "enrutamiento-dinamico-y-alta-disponibilidad",
+      "archivo": "Enrutamiento_Dinamico_y_Alta_Disponibilidad.md",
+      "modulo": "m5",
+      "titulo": "Enrutamiento dinámico y alta disponibilidad"
+    },
+    {
+      "slug": "servicios-de-red-y-acl",
+      "archivo": "Servicios_de_Red_y_ACL.md",
+      "modulo": "m5",
+      "titulo": "Servicios de red y ACL"
+    },
+    {
+      "slug": "simulacion-y-emulacion-de-redes",
+      "archivo": "Simulacion_y_Emulacion_Redes.md",
+      "modulo": "m5",
+      "titulo": "Simulación y emulación de redes"
+    },
+    {
+      "slug": "administracion-windows-y-linux",
+      "archivo": "Administracion_Windows_y_Linux.md",
+      "modulo": "m6",
+      "titulo": "Administración Windows y Linux"
+    },
+    {
+      "slug": "virtualizacion-e-hipervisores",
+      "archivo": "Virtualizacion_e_Hipervisores.md",
+      "modulo": "m7",
+      "titulo": "Virtualización e hipervisores"
+    },
+    {
+      "slug": "contenedores-docker",
+      "archivo": "Contenedores_Docker.md",
+      "modulo": "m7",
+      "titulo": "Contenedores Docker"
+    },
+    {
+      "slug": "orquestacion-kubernetes",
+      "archivo": "Orquestacion_Kubernetes.md",
+      "modulo": "m7",
+      "titulo": "Orquestación Kubernetes"
+    },
+    {
+      "slug": "infraestructura-cloud-y-devops",
+      "archivo": "Infraestructura_Cloud_y_DevOps.md",
+      "modulo": "m7",
+      "titulo": "Infraestructura cloud y DevOps"
+    },
+    {
+      "slug": "despliegue-nginx-docker",
+      "archivo": "Despliegue_Nginx_Docker.md",
+      "modulo": "m7",
+      "titulo": "Despliegue Nginx y Docker"
+    },
+    {
+      "slug": "seguridad-y-hardening-ti",
+      "archivo": "Seguridad_y_Hardening_TI.md",
+      "modulo": "m8",
+      "titulo": "Seguridad y hardening TI"
+    },
+    {
+      "slug": "mantenimiento-y-troubleshooting",
+      "archivo": "Mantenimiento_y_Troubleshooting.md",
+      "modulo": "m8",
+      "titulo": "Mantenimiento y troubleshooting"
+    }
+  ],
+  "rutas": [
+    {
+      "id": "integral",
+      "titulo": "Dominio integral",
+      "descripcion": "Las ocho etapas completas, en orden",
+      "lecciones": [
+        "seguridad-electrica-y-esd",
+        "fuentes-de-alimentacion",
+        "placas-base-y-chipsets",
+        "procesadores-cpu",
+        "memoria-ram-y-ecc",
+        "conceptos-de-almacenamiento",
+        "administracion-de-discos",
+        "modelos-de-red-osi-y-tcpip",
+        "redes-y-direccionamiento-ip",
+        "conmutacion-vlan-y-stp",
+        "enrutamiento-estatico-cisco",
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "servicios-de-red-y-acl",
+        "simulacion-y-emulacion-de-redes",
+        "administracion-windows-y-linux",
+        "virtualizacion-e-hipervisores",
+        "contenedores-docker",
+        "orquestacion-kubernetes",
+        "infraestructura-cloud-y-devops",
+        "despliegue-nginx-docker",
+        "seguridad-y-hardening-ti",
+        "mantenimiento-y-troubleshooting"
+      ]
+    },
+    {
+      "id": "repaso",
+      "titulo": "Repaso rápido",
+      "descripcion": "Recorrido completo en orden, para refrescar",
+      "lecciones": [
+        "seguridad-electrica-y-esd",
+        "fuentes-de-alimentacion",
+        "placas-base-y-chipsets",
+        "procesadores-cpu",
+        "memoria-ram-y-ecc",
+        "conceptos-de-almacenamiento",
+        "administracion-de-discos",
+        "modelos-de-red-osi-y-tcpip",
+        "redes-y-direccionamiento-ip",
+        "conmutacion-vlan-y-stp",
+        "enrutamiento-estatico-cisco",
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "servicios-de-red-y-acl",
+        "simulacion-y-emulacion-de-redes",
+        "administracion-windows-y-linux",
+        "virtualizacion-e-hipervisores",
+        "contenedores-docker",
+        "orquestacion-kubernetes",
+        "infraestructura-cloud-y-devops",
+        "despliegue-nginx-docker",
+        "seguridad-y-hardening-ti",
+        "mantenimiento-y-troubleshooting"
+      ]
+    },
+    {
+      "id": "redes",
+      "titulo": "Enfoque en redes",
+      "descripcion": "Del modelo de capas a la simulación",
+      "lecciones": [
+        "modelos-de-red-osi-y-tcpip",
+        "redes-y-direccionamiento-ip",
+        "conmutacion-vlan-y-stp",
+        "enrutamiento-estatico-cisco",
+        "enrutamiento-dinamico-y-alta-disponibilidad",
+        "servicios-de-red-y-acl",
+        "simulacion-y-emulacion-de-redes"
+      ]
+    },
+    {
+      "id": "servidores",
+      "titulo": "Enfoque en servidores y nube",
+      "descripcion": "Hardware, sistemas, virtualización y operación",
+      "lecciones": [
+        "fuentes-de-alimentacion",
+        "placas-base-y-chipsets",
+        "procesadores-cpu",
+        "memoria-ram-y-ecc",
+        "conceptos-de-almacenamiento",
+        "administracion-windows-y-linux",
+        "virtualizacion-e-hipervisores",
+        "contenedores-docker",
+        "orquestacion-kubernetes",
+        "infraestructura-cloud-y-devops",
+        "seguridad-y-hardening-ti",
+        "mantenimiento-y-troubleshooting"
+      ]
+    }
+  ],
+  "labs": {
+    "estado": "pendiente",
+    "disponible": false,
+    "nota": "Pestaña reservada para los simuladores interactivos (Cisco Packet Tracer y otros)."
+  }
+}
